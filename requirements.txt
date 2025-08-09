@@ -1,0 +1,23 @@
+# 基础依赖（必需）
+# 这些是项目运行的最基本要求
+# 无额外依赖 - 项目可以在纯Python环境中运行
+
+# 可选NLP增强功能（推荐安装以获得更好效果）
+# 取消注释以下行来安装NLP功能
+
+# scikit-learn>=1.0.0          # 机器学习基础库，用于TF-IDF分析
+# nltk>=3.7                    # 自然语言处理工具包
+# yake>=0.4.8                  # 无监督关键词提取
+# keybert>=0.7.0               # 基于BERT的关键词提取
+
+# 如果需要更强的BERT模型支持
+# sentence-transformers>=2.0.0 # KeyBERT的依赖，提供更好的语义理解
+
+# 安装说明：
+# 1. 基础使用（无需额外安装）：
+#    pip install -r requirements.txt
+#
+# 2. 完整NLP功能：
+#    python install_nlp.py
+#    或者手动取消注释上面的包并运行：
+#    pip install -r requirements.txt
