@@ -27,7 +27,6 @@ except ImportError:
 @dataclass
 class VersionRecord:
     """版本记录数据类"""
-    version: str
     date: str
     time: str
     editor: str
@@ -35,6 +34,7 @@ class VersionRecord:
     change_bytes: str
     description: str
     wiki_url: str
+    edit_url: str
 
 
 class SeleniumScraper:
@@ -67,28 +67,11 @@ class SeleniumScraper:
             print(f"❌ 无法启动 Chrome 驱动: {e}")
             return False
     
-    def extract_version_from_text(self, text: str) -> Optional[str]:
-        """从文本中提取版本号"""
+    def has_version_info(self, text: str) -> bool:
+        """检查文本中是否包含版本信息"""
         if not text:
-            return None
-        
-        patterns = [
-            r'update to (1\.\d+(?:\.\d+)?)',  # "update to 1.21.4"
-            r'Updated? to (1\.\d+(?:\.\d+)?)', # "Updated to 1.21"
-            r'version (1\.\d+(?:\.\d+)?)',    # "version 1.21"
-            r'changes for (1\.\d+(?:\.\d+)?)', # "changes for 1.21"
-            r'\b(1\.\d+\.\d+)\b',            # "1.21.8" (三位版本号优先)
-            r'\b(1\.\d+)\b',                 # "1.21" (两位版本号)
-            r'\((\d+\.\d+(?:\.\d+)?)\)',      # "(1.21.8)"
-            r'(\d+\.\d+\+)',                 # "1.13+"
-        ]
-        
-        for pattern in patterns:
-            match = re.search(pattern, text, re.IGNORECASE)
-            if match:
-                return match.group(1)
-        
-        return None
+            return False
+        return "1." in text
     
     def scrape_with_selenium(self) -> List[VersionRecord]:
         """使用 Selenium 爬取"""
@@ -157,33 +140,64 @@ class SeleniumScraper:
             change_match = re.search(r'([+-]\d+)', line_content)
             change_bytes = change_match.group(1) if change_match else "0"
             
-            # 提取注释
-            comment_match = re.search(r'<span[^>]*class="comment[^"]*"[^>]*>([^<]*)</span>', line_content)
-            comment = comment_match.group(1).strip() if comment_match else ""
+            # 提取注释 (处理嵌套 HTML 标签)
+            # 查找 comment span 的开始位置
+            comment_start = re.search(r'<span[^>]*class="comment[^"]*"[^>]*>', line_content)
+            if comment_start:
+                start_pos = comment_start.end()
+                # 从开始位置查找匹配的结束标签，考虑嵌套
+                span_count = 1
+                pos = start_pos
+                while pos < len(line_content) and span_count > 0:
+                    span_open = line_content.find('<span', pos)
+                    span_close = line_content.find('</span>', pos)
+                    
+                    if span_close == -1:
+                        break
+                    
+                    if span_open != -1 and span_open < span_close:
+                        span_count += 1
+                        pos = span_open + 5
+                    else:
+                        span_count -= 1
+                        pos = span_close + 7
+                        
+                if span_count == 0:
+                    comment_html = line_content[start_pos:pos-7]  # 减去 </span> 的长度
+                    # 移除 HTML 标签，保留文本内容
+                    comment = re.sub(r'<[^>]+>', '', comment_html).strip()
+                    # 清理多余的空格和特殊字符
+                    comment = re.sub(r'\s+', ' ', comment).strip()
+                else:
+                    comment = ""
+            else:
+                comment = ""
             
-            # 提取版本号
-            version = self.extract_version_from_text(comment) if comment else None
-            
-            # 只保留有明确版本号的记录
-            if version:
+            # 检查是否包含版本信息
+            if self.has_version_info(comment):
                 wiki_url = f"{self.base_url}/w/Java_Edition_protocol/Entity_metadata?oldid={oldid}"
+                edit_url = f"{self.base_url}/w/Java_Edition_protocol/Entity_metadata?action=edit&oldid={oldid}"
                 
                 record = VersionRecord(
-                    version=version,
                     date=date_part,
                     time=time_part,
                     editor=editor,
                     file_size=file_size,
                     change_bytes=change_bytes,
                     description=comment,
-                    wiki_url=wiki_url
+                    wiki_url=wiki_url,
+                    edit_url=edit_url
                 )
                 records.append(record)
-                print(f"✅ 发现版本: {version} ({date_part}) - oldid={oldid}")
+                print(f"✅ 发现版本记录: ({date_part}) - oldid={oldid} - {comment[:50]}...")
             else:
-                # 跳过没有版本号的记录
+                # 跳过没有版本信息的记录
                 if comment:
-                    print(f"⏭️  跳过无版本: oldid={oldid} - {comment[:50]}...")
+                    # 特殊记录：如果是可疑的遗漏，显示完整 comment
+                    if "entity" in comment.lower() or "metadata" in comment.lower():
+                        print(f"⏭️  跳过无版本: oldid={oldid} - FULL: {comment}")
+                    else:
+                        print(f"⏭️  跳过无版本: oldid={oldid} - {comment[:50]}...")
                 else:
                     print(f"⏭️  跳过无评论: oldid={oldid}")
         
@@ -225,10 +239,11 @@ def parse_saved_page():
             print(f"\n✅ 成功解析 {len(records)} 个版本记录")
             
             # 显示前10个版本
-            print("\n📊 发现的版本:")
+            print("\n📊 发现的版本记录:")
             for i, record in enumerate(records[:10]):
-                version_str = record.version if record.version != "Unknown" else "?"
-                print(f"  {i+1:2d}. {version_str:8} | {record.date:15} | {record.editor:12} | oldid={record.wiki_url.split('=')[-1]}")
+                oldid = record.wiki_url.split('=')[-1]
+                comment_preview = record.description[:30] + "..." if len(record.description) > 30 else record.description
+                print(f"  {i+1:2d}. {record.date:15} | {record.editor:12} | oldid={oldid} | {comment_preview}")
             
             if len(records) > 10:
                 print(f"  ... 还有 {len(records) - 10} 个版本")
@@ -266,12 +281,14 @@ def main():
         print(f"\n✅ 成功获取 {len(records)} 个版本记录")
         
         # 显示前10个版本
-        print("\n📊 发现的版本:")
+        print("\n📊 发现的版本记录:")
         for i, record in enumerate(records[:10]):
-            print(f"  {i+1:2d}. {record.version:8} | {record.date:15} | {record.editor}")
+            oldid = record.wiki_url.split('=')[-1]
+            comment_preview = record.description[:30] + "..." if len(record.description) > 30 else record.description
+            print(f"  {i+1:2d}. {record.date:15} | {record.editor:12} | oldid={oldid} | {comment_preview}")
         
         if len(records) > 10:
-            print(f"  ... 还有 {len(records) - 10} 个版本")
+            print(f"  ... 还有 {len(records) - 10} 个记录")
         
         save_results(records)
         print(f"\n🎯 完成！共处理 {len(records)} 个 Minecraft 版本")
