@@ -1,0 +1,3571 @@
+{
+  "version": "1.21.7",
+  "entities": {
+    "minecraft:acacia_boat": {
+      "type_index": 0,
+      "name": "Acacia Boat",
+      "bounding_box_xz": "1.375",
+      "bounding_box_y": "0.5625"
+    },
+    "minecraft:acacia_chest_boat": {
+      "type_index": 1,
+      "name": "Acacia Boat with Chest",
+      "bounding_box_xz": "1.375",
+      "bounding_box_y": "0.5625"
+    },
+    "minecraft:allay": {
+      "type_index": 2,
+      "name": "Allay",
+      "bounding_box_xz": "0.35",
+      "bounding_box_y": "0.6"
+    },
+    "minecraft:area_effect_cloud": {
+      "type_index": 3,
+      "name": "Area Effect Cloud",
+      "bounding_box_xz": "2.0 * Radius",
+      "bounding_box_y": "0.5"
+    },
+    "minecraft:armadillo": {
+      "type_index": 4,
+      "name": "Armadillo",
+      "bounding_box_xz": "0.7",
+      "bounding_box_y": "0.65"
+    },
+    "minecraft:armor_stand": {
+      "type_index": 5,
+      "name": "Armor Stand",
+      "bounding_box_xz": "normal: 0.5 marker: 0.0 small: 0.25",
+      "bounding_box_y": "normal: 1.975 marker: 0.0 small: 0.9875"
+    },
+    "minecraft:arrow": {
+      "type_index": 6,
+      "name": "Arrow",
+      "bounding_box_xz": "0.5",
+      "bounding_box_y": "0.5"
+    },
+    "minecraft:axolotl": {
+      "type_index": 7,
+      "name": "Axolotl",
+      "bounding_box_xz": "0.75",
+      "bounding_box_y": "0.42"
+    },
+    "minecraft:bamboo_chest_raft": {
+      "type_index": 8,
+      "name": "Bamboo Raft with Chest",
+      "bounding_box_xz": "1.375",
+      "bounding_box_y": "0.5625"
+    },
+    "minecraft:bamboo_raft": {
+      "type_index": 9,
+      "name": "Bamboo Raft",
+      "bounding_box_xz": "1.375",
+      "bounding_box_y": "0.5625"
+    },
+    "minecraft:bat": {
+      "type_index": 10,
+      "name": "Bat",
+      "bounding_box_xz": "0.5",
+      "bounding_box_y": "0.9"
+    },
+    "minecraft:bee": {
+      "type_index": 11,
+      "name": "Bee",
+      "bounding_box_xz": "0.7",
+      "bounding_box_y": "0.6"
+    },
+    "minecraft:birch_boat": {
+      "type_index": 12,
+      "name": "Birch Boat",
+      "bounding_box_xz": "1.375",
+      "bounding_box_y": "0.5625"
+    },
+    "minecraft:birch_chest_boat": {
+      "type_index": 13,
+      "name": "Birch Boat with Chest",
+      "bounding_box_xz": "1.375",
+      "bounding_box_y": "0.5625"
+    },
+    "minecraft:blaze": {
+      "type_index": 14,
+      "name": "Blaze",
+      "bounding_box_xz": "0.6",
+      "bounding_box_y": "1.8"
+    },
+    "minecraft:block_display": {
+      "type_index": 15,
+      "name": "Block Display",
+      "bounding_box_xz": "0.0",
+      "bounding_box_y": "0.0"
+    },
+    "minecraft:bogged": {
+      "type_index": 16,
+      "name": "Bogged",
+      "bounding_box_xz": "0.6",
+      "bounding_box_y": "1.99"
+    },
+    "minecraft:breeze": {
+      "type_index": 17,
+      "name": "Breeze",
+      "bounding_box_xz": "0.6",
+      "bounding_box_y": "1.77"
+    },
+    "minecraft:breeze_wind_charge": {
+      "type_index": 18,
+      "name": "Wind Charge",
+      "bounding_box_xz": "0.3125",
+      "bounding_box_y": "0.3125"
+    },
+    "minecraft:camel": {
+      "type_index": 19,
+      "name": "Camel",
+      "bounding_box_xz": "1.7",
+      "bounding_box_y": "2.375"
+    },
+    "minecraft:cat": {
+      "type_index": 20,
+      "name": "Cat",
+      "bounding_box_xz": "0.6",
+      "bounding_box_y": "0.7"
+    },
+    "minecraft:cave_spider": {
+      "type_index": 21,
+      "name": "Cave Spider",
+      "bounding_box_xz": "0.7",
+      "bounding_box_y": "0.5"
+    },
+    "minecraft:cherry_boat": {
+      "type_index": 22,
+      "name": "Cherry Boat",
+      "bounding_box_xz": "1.375",
+      "bounding_box_y": "0.5625"
+    },
+    "minecraft:cherry_chest_boat": {
+      "type_index": 23,
+      "name": "Cherry Boat with Chest",
+      "bounding_box_xz": "1.375",
+      "bounding_box_y": "0.5625"
+    },
+    "minecraft:chest_minecart": {
+      "type_index": 24,
+      "name": "Minecart with Chest",
+      "bounding_box_xz": "0.98",
+      "bounding_box_y": "0.7"
+    },
+    "minecraft:chicken": {
+      "type_index": 25,
+      "name": "Chicken",
+      "bounding_box_xz": "0.4",
+      "bounding_box_y": "0.7"
+    },
+    "minecraft:cod": {
+      "type_index": 26,
+      "name": "Cod",
+      "bounding_box_xz": "0.5",
+      "bounding_box_y": "0.3"
+    },
+    "minecraft:command_block_minecart": {
+      "type_index": 27,
+      "name": "Minecart with Command Block",
+      "bounding_box_xz": "0.98",
+      "bounding_box_y": "0.7"
+    },
+    "minecraft:cow": {
+      "type_index": 28,
+      "name": "Cow",
+      "bounding_box_xz": "0.9",
+      "bounding_box_y": "1.4"
+    },
+    "minecraft:creaking": {
+      "type_index": 29,
+      "name": "Creaking",
+      "bounding_box_xz": "0.9",
+      "bounding_box_y": "2.7"
+    },
+    "minecraft:creeper": {
+      "type_index": 30,
+      "name": "Creeper",
+      "bounding_box_xz": "0.6",
+      "bounding_box_y": "1.7"
+    },
+    "minecraft:dark_oak_boat": {
+      "type_index": 31,
+      "name": "Dark Oak Boat",
+      "bounding_box_xz": "1.375",
+      "bounding_box_y": "0.5625"
+    },
+    "minecraft:dark_oak_chest_boat": {
+      "type_index": 32,
+      "name": "Dark Oak Boat with Chest",
+      "bounding_box_xz": "1.375",
+      "bounding_box_y": "0.5625"
+    },
+    "minecraft:dolphin": {
+      "type_index": 33,
+      "name": "Dolphin",
+      "bounding_box_xz": "0.9",
+      "bounding_box_y": "0.6"
+    },
+    "minecraft:donkey": {
+      "type_index": 34,
+      "name": "Donkey",
+      "bounding_box_xz": "1.3964844",
+      "bounding_box_y": "1.5"
+    },
+    "minecraft:dragon_fireball": {
+      "type_index": 35,
+      "name": "Dragon Fireball",
+      "bounding_box_xz": "1.0",
+      "bounding_box_y": "1.0"
+    },
+    "minecraft:drowned": {
+      "type_index": 36,
+      "name": "Drowned",
+      "bounding_box_xz": "0.6",
+      "bounding_box_y": "1.95"
+    },
+    "minecraft:egg": {
+      "type_index": 37,
+      "name": "Thrown Egg",
+      "bounding_box_xz": "0.25",
+      "bounding_box_y": "0.25"
+    },
+    "minecraft:elder_guardian": {
+      "type_index": 38,
+      "name": "Elder Guardian",
+      "bounding_box_xz": "1.9975 (2.35 * guardian)",
+      "bounding_box_y": "1.9975 (2.35 * guardian)"
+    },
+    "minecraft:enderman": {
+      "type_index": 39,
+      "name": "Enderman",
+      "bounding_box_xz": "0.6",
+      "bounding_box_y": "2.9"
+    },
+    "minecraft:endermite": {
+      "type_index": 40,
+      "name": "Endermite",
+      "bounding_box_xz": "0.4",
+      "bounding_box_y": "0.3"
+    },
+    "minecraft:ender_dragon": {
+      "type_index": 41,
+      "name": "Ender Dragon",
+      "bounding_box_xz": "16.0",
+      "bounding_box_y": "8.0"
+    },
+    "minecraft:ender_pearl": {
+      "type_index": 42,
+      "name": "Thrown Ender Pearl",
+      "bounding_box_xz": "0.25",
+      "bounding_box_y": "0.25"
+    },
+    "minecraft:end_crystal": {
+      "type_index": 43,
+      "name": "End Crystal",
+      "bounding_box_xz": "2.0",
+      "bounding_box_y": "2.0"
+    },
+    "minecraft:evoker": {
+      "type_index": 44,
+      "name": "Evoker",
+      "bounding_box_xz": "0.6",
+      "bounding_box_y": "1.95"
+    },
+    "minecraft:evoker_fangs": {
+      "type_index": 45,
+      "name": "Evoker Fangs",
+      "bounding_box_xz": "0.5",
+      "bounding_box_y": "0.8"
+    },
+    "minecraft:experience_bottle": {
+      "type_index": 46,
+      "name": "Thrown Bottle o' Enchanting",
+      "bounding_box_xz": "0.25",
+      "bounding_box_y": "0.25"
+    },
+    "minecraft:experience_orb": {
+      "type_index": 47,
+      "name": "Experience Orb",
+      "bounding_box_xz": "0.5",
+      "bounding_box_y": "0.5"
+    },
+    "minecraft:eye_of_ender": {
+      "type_index": 48,
+      "name": "Eye of Ender",
+      "bounding_box_xz": "0.25",
+      "bounding_box_y": "0.25"
+    },
+    "minecraft:falling_block": {
+      "type_index": 49,
+      "name": "Falling Block",
+      "bounding_box_xz": "0.98",
+      "bounding_box_y": "0.98"
+    },
+    "minecraft:fireball": {
+      "type_index": 50,
+      "name": "Fireball",
+      "bounding_box_xz": "1.0",
+      "bounding_box_y": "1.0"
+    },
+    "minecraft:firework_rocket": {
+      "type_index": 51,
+      "name": "Firework Rocket",
+      "bounding_box_xz": "0.25",
+      "bounding_box_y": "0.25"
+    },
+    "minecraft:fox": {
+      "type_index": 52,
+      "name": "Fox",
+      "bounding_box_xz": "0.6",
+      "bounding_box_y": "0.7"
+    },
+    "minecraft:frog": {
+      "type_index": 53,
+      "name": "Frog",
+      "bounding_box_xz": "0.5",
+      "bounding_box_y": "0.5"
+    },
+    "minecraft:furnace_minecart": {
+      "type_index": 54,
+      "name": "Minecart with Furnace",
+      "bounding_box_xz": "0.98",
+      "bounding_box_y": "0.7"
+    },
+    "minecraft:ghast": {
+      "type_index": 55,
+      "name": "Ghast",
+      "bounding_box_xz": "4.0",
+      "bounding_box_y": "4.0"
+    },
+    "minecraft:happy_ghast": {
+      "type_index": 56,
+      "name": "Happy Ghast",
+      "bounding_box_xz": "4.0",
+      "bounding_box_y": "4.0"
+    },
+    "minecraft:giant": {
+      "type_index": 57,
+      "name": "Giant",
+      "bounding_box_xz": "3.6",
+      "bounding_box_y": "12.0"
+    },
+    "minecraft:glow_item_frame": {
+      "type_index": 58,
+      "name": "Glow Item Frame",
+      "bounding_box_xz": "0.75 or 0.0625 (depth)",
+      "bounding_box_y": "0.75"
+    },
+    "minecraft:glow_squid": {
+      "type_index": 59,
+      "name": "Glow Squid",
+      "bounding_box_xz": "0.8",
+      "bounding_box_y": "0.8"
+    },
+    "minecraft:goat": {
+      "type_index": 60,
+      "name": "Goat",
+      "bounding_box_xz": "1.3",
+      "bounding_box_y": "0.9"
+    },
+    "minecraft:guardian": {
+      "type_index": 61,
+      "name": "Guardian",
+      "bounding_box_xz": "0.85",
+      "bounding_box_y": "0.85"
+    },
+    "minecraft:hoglin": {
+      "type_index": 62,
+      "name": "Hoglin",
+      "bounding_box_xz": "1.3964844",
+      "bounding_box_y": "1.4"
+    },
+    "minecraft:hopper_minecart": {
+      "type_index": 63,
+      "name": "Minecart with Hopper",
+      "bounding_box_xz": "0.98",
+      "bounding_box_y": "0.7"
+    },
+    "minecraft:horse": {
+      "type_index": 64,
+      "name": "Horse",
+      "bounding_box_xz": "1.3964844",
+      "bounding_box_y": "1.6"
+    },
+    "minecraft:husk": {
+      "type_index": 65,
+      "name": "Husk",
+      "bounding_box_xz": "0.6",
+      "bounding_box_y": "1.95"
+    },
+    "minecraft:illusioner": {
+      "type_index": 66,
+      "name": "Illusioner",
+      "bounding_box_xz": "0.6",
+      "bounding_box_y": "1.95"
+    },
+    "minecraft:interaction": {
+      "type_index": 67,
+      "name": "Interaction",
+      "bounding_box_xz": "0.0",
+      "bounding_box_y": "0.0"
+    },
+    "minecraft:iron_golem": {
+      "type_index": 68,
+      "name": "Iron Golem",
+      "bounding_box_xz": "1.4",
+      "bounding_box_y": "2.7"
+    },
+    "minecraft:item": {
+      "type_index": 69,
+      "name": "Item",
+      "bounding_box_xz": "0.25",
+      "bounding_box_y": "0.25"
+    },
+    "minecraft:item_display": {
+      "type_index": 70,
+      "name": "Item Display",
+      "bounding_box_xz": "0.0",
+      "bounding_box_y": "0.0"
+    },
+    "minecraft:item_frame": {
+      "type_index": 71,
+      "name": "Item Frame",
+      "bounding_box_xz": "0.75 or 0.0625 (depth)",
+      "bounding_box_y": "0.75"
+    },
+    "minecraft:jungle_boat": {
+      "type_index": 72,
+      "name": "Jungle Boat",
+      "bounding_box_xz": "1.375",
+      "bounding_box_y": "0.5625"
+    },
+    "minecraft:jungle_chest_boat": {
+      "type_index": 73,
+      "name": "Jungle Boat with Chest",
+      "bounding_box_xz": "1.375",
+      "bounding_box_y": "0.5625"
+    },
+    "minecraft:leash_knot": {
+      "type_index": 74,
+      "name": "Leash Knot",
+      "bounding_box_xz": "0.375",
+      "bounding_box_y": "0.5"
+    },
+    "minecraft:lightning_bolt": {
+      "type_index": 75,
+      "name": "Lightning Bolt",
+      "bounding_box_xz": "0.0",
+      "bounding_box_y": "0.0"
+    },
+    "minecraft:llama": {
+      "type_index": 76,
+      "name": "Llama",
+      "bounding_box_xz": "0.9",
+      "bounding_box_y": "1.87"
+    },
+    "minecraft:llama_spit": {
+      "type_index": 77,
+      "name": "Llama Spit",
+      "bounding_box_xz": "0.25",
+      "bounding_box_y": "0.25"
+    },
+    "minecraft:magma_cube": {
+      "type_index": 78,
+      "name": "Magma Cube",
+      "bounding_box_xz": "0.5202 * size",
+      "bounding_box_y": "0.5202 * size"
+    },
+    "minecraft:mangrove_boat": {
+      "type_index": 79,
+      "name": "Mangrove Boat",
+      "bounding_box_xz": "1.375",
+      "bounding_box_y": "0.5625"
+    },
+    "minecraft:mangrove_chest_boat": {
+      "type_index": 80,
+      "name": "Mangrove Boat with Chest",
+      "bounding_box_xz": "1.375",
+      "bounding_box_y": "0.5625"
+    },
+    "minecraft:marker": {
+      "type_index": 81,
+      "name": "Marker",
+      "bounding_box_xz": "0.0",
+      "bounding_box_y": "0.0"
+    },
+    "minecraft:minecart": {
+      "type_index": 82,
+      "name": "Minecart",
+      "bounding_box_xz": "0.98",
+      "bounding_box_y": "0.7"
+    },
+    "minecraft:mooshroom": {
+      "type_index": 83,
+      "name": "Mooshroom",
+      "bounding_box_xz": "0.9",
+      "bounding_box_y": "1.4"
+    },
+    "minecraft:mule": {
+      "type_index": 84,
+      "name": "Mule",
+      "bounding_box_xz": "1.3964844",
+      "bounding_box_y": "1.6"
+    },
+    "minecraft:oak_boat": {
+      "type_index": 85,
+      "name": "Oak Boat",
+      "bounding_box_xz": "1.375",
+      "bounding_box_y": "0.5625"
+    },
+    "minecraft:oak_chest_boat": {
+      "type_index": 86,
+      "name": "Oak Boat with Chest",
+      "bounding_box_xz": "1.375",
+      "bounding_box_y": "0.5625"
+    },
+    "minecraft:ocelot": {
+      "type_index": 87,
+      "name": "Ocelot",
+      "bounding_box_xz": "0.6",
+      "bounding_box_y": "0.7"
+    },
+    "minecraft:ominous_item_spawner": {
+      "type_index": 88,
+      "name": "Ominous Item Spawner",
+      "bounding_box_xz": "0.25",
+      "bounding_box_y": "0.25"
+    },
+    "minecraft:painting": {
+      "type_index": 89,
+      "name": "Painting",
+      "bounding_box_xz": "type width or 0.0625 (depth)",
+      "bounding_box_y": "type height"
+    },
+    "minecraft:pale_oak_boat": {
+      "type_index": 90,
+      "name": "Pale Oak Boat",
+      "bounding_box_xz": "1.375",
+      "bounding_box_y": "0.5625"
+    },
+    "minecraft:pale_oak_chest_boat": {
+      "type_index": 91,
+      "name": "Pale Oak Boat with Chest",
+      "bounding_box_xz": "1.375",
+      "bounding_box_y": "0.5625"
+    },
+    "minecraft:panda": {
+      "type_index": 92,
+      "name": "Panda",
+      "bounding_box_xz": "1.3",
+      "bounding_box_y": "1.25"
+    },
+    "minecraft:parrot": {
+      "type_index": 93,
+      "name": "Parrot",
+      "bounding_box_xz": "0.5",
+      "bounding_box_y": "0.9"
+    },
+    "minecraft:phantom": {
+      "type_index": 94,
+      "name": "Phantom",
+      "bounding_box_xz": "0.9",
+      "bounding_box_y": "0.5"
+    },
+    "minecraft:pig": {
+      "type_index": 95,
+      "name": "Pig",
+      "bounding_box_xz": "0.9",
+      "bounding_box_y": "0.9"
+    },
+    "minecraft:piglin": {
+      "type_index": 96,
+      "name": "Piglin",
+      "bounding_box_xz": "0.6",
+      "bounding_box_y": "1.95"
+    },
+    "minecraft:piglin_brute": {
+      "type_index": 97,
+      "name": "Piglin Brute",
+      "bounding_box_xz": "0.6",
+      "bounding_box_y": "1.95"
+    },
+    "minecraft:pillager": {
+      "type_index": 98,
+      "name": "Pillager",
+      "bounding_box_xz": "0.6",
+      "bounding_box_y": "1.95"
+    },
+    "minecraft:polar_bear": {
+      "type_index": 99,
+      "name": "Polar Bear",
+      "bounding_box_xz": "1.4",
+      "bounding_box_y": "1.4"
+    },
+    "minecraft:splash_potion": {
+      "type_index": 100,
+      "name": "Splash Potion",
+      "bounding_box_xz": "0.25",
+      "bounding_box_y": "0.25"
+    },
+    "minecraft:lingering_potion": {
+      "type_index": 101,
+      "name": "Lingering Potion",
+      "bounding_box_xz": "0.25",
+      "bounding_box_y": "0.25"
+    },
+    "minecraft:pufferfish": {
+      "type_index": 102,
+      "name": "Pufferfish",
+      "bounding_box_xz": "0.7",
+      "bounding_box_y": "0.7"
+    },
+    "minecraft:rabbit": {
+      "type_index": 103,
+      "name": "Rabbit",
+      "bounding_box_xz": "0.4",
+      "bounding_box_y": "0.5"
+    },
+    "minecraft:ravager": {
+      "type_index": 104,
+      "name": "Ravager",
+      "bounding_box_xz": "1.95",
+      "bounding_box_y": "2.2"
+    },
+    "minecraft:salmon": {
+      "type_index": 105,
+      "name": "Salmon",
+      "bounding_box_xz": "0.7",
+      "bounding_box_y": "0.4"
+    },
+    "minecraft:sheep": {
+      "type_index": 106,
+      "name": "Sheep",
+      "bounding_box_xz": "0.9",
+      "bounding_box_y": "1.3"
+    },
+    "minecraft:shulker": {
+      "type_index": 107,
+      "name": "Shulker",
+      "bounding_box_xz": "1.0",
+      "bounding_box_y": "1.0-2.0 (depending on peek)"
+    },
+    "minecraft:shulker_bullet": {
+      "type_index": 108,
+      "name": "Shulker Bullet",
+      "bounding_box_xz": "0.3125",
+      "bounding_box_y": "0.3125"
+    },
+    "minecraft:silverfish": {
+      "type_index": 109,
+      "name": "Silverfish",
+      "bounding_box_xz": "0.4",
+      "bounding_box_y": "0.3"
+    },
+    "minecraft:skeleton": {
+      "type_index": 110,
+      "name": "Skeleton",
+      "bounding_box_xz": "0.6",
+      "bounding_box_y": "1.99"
+    },
+    "minecraft:skeleton_horse": {
+      "type_index": 111,
+      "name": "Skeleton Horse",
+      "bounding_box_xz": "1.3964844",
+      "bounding_box_y": "1.6"
+    },
+    "minecraft:slime": {
+      "type_index": 112,
+      "name": "Slime",
+      "bounding_box_xz": "0.5202 * size",
+      "bounding_box_y": "0.5202 * size"
+    },
+    "minecraft:small_fireball": {
+      "type_index": 113,
+      "name": "Small Fireball",
+      "bounding_box_xz": "0.3125",
+      "bounding_box_y": "0.3125"
+    },
+    "minecraft:sniffer": {
+      "type_index": 114,
+      "name": "Sniffer",
+      "bounding_box_xz": "1.9",
+      "bounding_box_y": "1.75"
+    },
+    "minecraft:snowball": {
+      "type_index": 115,
+      "name": "Snowball",
+      "bounding_box_xz": "0.25",
+      "bounding_box_y": "0.25"
+    },
+    "minecraft:snow_golem": {
+      "type_index": 116,
+      "name": "Snow Golem",
+      "bounding_box_xz": "0.7",
+      "bounding_box_y": "1.9"
+    },
+    "minecraft:spawner_minecart": {
+      "type_index": 117,
+      "name": "Minecart with Monster Spawner",
+      "bounding_box_xz": "0.98",
+      "bounding_box_y": "0.7"
+    },
+    "minecraft:spectral_arrow": {
+      "type_index": 118,
+      "name": "Spectral Arrow",
+      "bounding_box_xz": "0.5",
+      "bounding_box_y": "0.5"
+    },
+    "minecraft:spider": {
+      "type_index": 119,
+      "name": "Spider",
+      "bounding_box_xz": "1.4",
+      "bounding_box_y": "0.9"
+    },
+    "minecraft:spruce_boat": {
+      "type_index": 120,
+      "name": "Spruce Boat",
+      "bounding_box_xz": "1.375",
+      "bounding_box_y": "0.5625"
+    },
+    "minecraft:spruce_chest_boat": {
+      "type_index": 121,
+      "name": "Spruce Boat with Chest",
+      "bounding_box_xz": "1.375",
+      "bounding_box_y": "0.5625"
+    },
+    "minecraft:squid": {
+      "type_index": 122,
+      "name": "Squid",
+      "bounding_box_xz": "0.8",
+      "bounding_box_y": "0.8"
+    },
+    "minecraft:stray": {
+      "type_index": 123,
+      "name": "Stray",
+      "bounding_box_xz": "0.6",
+      "bounding_box_y": "1.99"
+    },
+    "minecraft:strider": {
+      "type_index": 124,
+      "name": "Strider",
+      "bounding_box_xz": "0.9",
+      "bounding_box_y": "1.7"
+    },
+    "minecraft:tadpole": {
+      "type_index": 125,
+      "name": "Tadpole",
+      "bounding_box_xz": "0.4",
+      "bounding_box_y": "0.3"
+    },
+    "minecraft:text_display": {
+      "type_index": 126,
+      "name": "Text Display",
+      "bounding_box_xz": "0.0",
+      "bounding_box_y": "0.0"
+    },
+    "minecraft:tnt": {
+      "type_index": 127,
+      "name": "Primed TNT",
+      "bounding_box_xz": "0.98",
+      "bounding_box_y": "0.98"
+    },
+    "minecraft:tnt_minecart": {
+      "type_index": 128,
+      "name": "Minecart with TNT",
+      "bounding_box_xz": "0.98",
+      "bounding_box_y": "0.7"
+    },
+    "minecraft:trader_llama": {
+      "type_index": 129,
+      "name": "Trader Llama",
+      "bounding_box_xz": "0.9",
+      "bounding_box_y": "1.87"
+    },
+    "minecraft:trident": {
+      "type_index": 130,
+      "name": "Trident",
+      "bounding_box_xz": "0.5",
+      "bounding_box_y": "0.5"
+    },
+    "minecraft:tropical_fish": {
+      "type_index": 131,
+      "name": "Tropical Fish",
+      "bounding_box_xz": "0.5",
+      "bounding_box_y": "0.4"
+    },
+    "minecraft:turtle": {
+      "type_index": 132,
+      "name": "Turtle",
+      "bounding_box_xz": "1.2",
+      "bounding_box_y": "0.4"
+    },
+    "minecraft:vex": {
+      "type_index": 133,
+      "name": "Vex",
+      "bounding_box_xz": "0.4",
+      "bounding_box_y": "0.8"
+    },
+    "minecraft:villager": {
+      "type_index": 134,
+      "name": "Villager",
+      "bounding_box_xz": "0.6",
+      "bounding_box_y": "1.95"
+    },
+    "minecraft:vindicator": {
+      "type_index": 135,
+      "name": "Vindicator",
+      "bounding_box_xz": "0.6",
+      "bounding_box_y": "1.95"
+    },
+    "minecraft:wandering_trader": {
+      "type_index": 136,
+      "name": "Wandering Trader",
+      "bounding_box_xz": "0.6",
+      "bounding_box_y": "1.95"
+    },
+    "minecraft:warden": {
+      "type_index": 137,
+      "name": "Warden",
+      "bounding_box_xz": "0.9",
+      "bounding_box_y": "2.9"
+    },
+    "minecraft:wind_charge": {
+      "type_index": 138,
+      "name": "Wind Charge",
+      "bounding_box_xz": "0.3125",
+      "bounding_box_y": "0.3125"
+    },
+    "minecraft:witch": {
+      "type_index": 139,
+      "name": "Witch",
+      "bounding_box_xz": "0.6",
+      "bounding_box_y": "1.95"
+    },
+    "minecraft:wither": {
+      "type_index": 140,
+      "name": "Wither",
+      "bounding_box_xz": "0.9",
+      "bounding_box_y": "3.5"
+    },
+    "minecraft:wither_skeleton": {
+      "type_index": 141,
+      "name": "Wither Skeleton",
+      "bounding_box_xz": "0.7",
+      "bounding_box_y": "2.4"
+    },
+    "minecraft:wither_skull": {
+      "type_index": 142,
+      "name": "Wither Skull",
+      "bounding_box_xz": "0.3125",
+      "bounding_box_y": "0.3125"
+    },
+    "minecraft:wolf": {
+      "type_index": 143,
+      "name": "Wolf",
+      "bounding_box_xz": "0.6",
+      "bounding_box_y": "0.85"
+    },
+    "minecraft:zoglin": {
+      "type_index": 144,
+      "name": "Zoglin",
+      "bounding_box_xz": "1.3964844",
+      "bounding_box_y": "1.4"
+    },
+    "minecraft:zombie": {
+      "type_index": 145,
+      "name": "Zombie",
+      "bounding_box_xz": "0.6",
+      "bounding_box_y": "1.95"
+    },
+    "minecraft:zombie_horse": {
+      "type_index": 146,
+      "name": "Zombie Horse",
+      "bounding_box_xz": "1.3964844",
+      "bounding_box_y": "1.6"
+    },
+    "minecraft:zombie_villager": {
+      "type_index": 147,
+      "name": "Zombie Villager",
+      "bounding_box_xz": "0.6",
+      "bounding_box_y": "1.95"
+    },
+    "minecraft:zombified_piglin": {
+      "type_index": 148,
+      "name": "Zombified Piglin",
+      "bounding_box_xz": "0.6",
+      "bounding_box_y": "1.95"
+    },
+    "minecraft:player": {
+      "type_index": 149,
+      "name": "Player",
+      "bounding_box_xz": "0.6",
+      "bounding_box_y": "1.8"
+    },
+    "minecraft:fishing_bobber": {
+      "type_index": 150,
+      "name": "Fishing Bobber",
+      "bounding_box_xz": "0.25",
+      "bounding_box_y": "0.25"
+    }
+  },
+  "metadata": {
+    "minecraft:entity": {
+      "inherits": null,
+      "fields": [
+        {
+          "index": 0,
+          "type": "Byte",
+          "default": "0",
+          "bitmask": [
+            {
+              "mask": "0x01",
+              "meaning": "Is on fire",
+              "name": "fire"
+            },
+            {
+              "mask": "0x02",
+              "meaning": "Is pressing sneak key (hides the name tag, but does not make the entity visually sneak.)",
+              "name": "pressingSneakKey"
+            },
+            {
+              "mask": "0x04",
+              "meaning": "''Unused'' (previously riding)",
+              "name": "unused"
+            },
+            {
+              "mask": "0x08",
+              "meaning": "Is sprinting (shows sprinting particles when on ground.)",
+              "name": "sprinting"
+            },
+            {
+              "mask": "0x10",
+              "meaning": "Is swimming",
+              "name": "swimming"
+            },
+            {
+              "mask": "0x20",
+              "meaning": "Is invisible",
+              "name": "invisible"
+            },
+            {
+              "mask": "0x40",
+              "meaning": "has glowing effect",
+              "name": "glowingEffect"
+            },
+            {
+              "mask": "0x80",
+              "meaning": "Is flying with an elytra",
+              "name": "flyingElytra"
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "type": "VarInt",
+          "default": "300",
+          "meaning": "Air ticks",
+          "name": "airTicks"
+        },
+        {
+          "index": 2,
+          "type": "Optional Text Component",
+          "default": "empty",
+          "meaning": "Custom name",
+          "name": "customName"
+        },
+        {
+          "index": 3,
+          "type": "Boolean",
+          "default": "false",
+          "meaning": "Is custom name visible",
+          "name": "customNameVisible"
+        },
+        {
+          "index": 4,
+          "type": "Boolean",
+          "default": "false",
+          "meaning": "Is silent",
+          "name": "silent"
+        },
+        {
+          "index": 5,
+          "type": "Boolean",
+          "default": "false",
+          "meaning": "Has no gravity",
+          "name": "gravity"
+        },
+        {
+          "index": 6,
+          "type": "Pose",
+          "default": "STANDING",
+          "meaning": "Pose",
+          "name": "pose"
+        },
+        {
+          "index": 7,
+          "type": "VarInt",
+          "default": "0",
+          "meaning": "Ticks frozen in powder snow",
+          "name": "ticksFrozenPowder"
+        }
+      ]
+    },
+    "minecraft:painting": {
+      "inherits": "minecraft:painting",
+      "fields": [
+        {
+          "index": 8,
+          "type": "Direction",
+          "default": "SOUTH",
+          "meaning": "",
+          "name": "field8"
+        },
+        {
+          "index": 9,
+          "type": "Painting Variant",
+          "default": "KEBAB",
+          "meaning": "Painting Type",
+          "name": "paintingType"
+        }
+      ]
+    },
+    "minecraft:lightning_bolt": {
+      "inherits": "minecraft:lightning_bolt",
+      "fields": []
+    },
+    "minecraft:item_frame": {
+      "inherits": "minecraft:item_frame",
+      "fields": [
+        {
+          "index": 8,
+          "type": "Direction",
+          "default": "SOUTH",
+          "meaning": "Direction",
+          "name": "direction"
+        },
+        {
+          "index": 9,
+          "type": "Slot",
+          "default": "Empty",
+          "meaning": "Item",
+          "name": "item"
+        },
+        {
+          "index": 10,
+          "type": "VarInt",
+          "default": "0",
+          "meaning": "Rotation",
+          "name": "rotation"
+        }
+      ]
+    },
+    "minecraft:marker": {
+      "inherits": "minecraft:marker",
+      "fields": []
+    },
+    "minecraft:llama_spit": {
+      "inherits": "minecraft:llama_spit",
+      "fields": []
+    },
+    "minecraft:leash_knot": {
+      "inherits": "minecraft:leash_knot",
+      "fields": []
+    },
+    "minecraft:small_fireball": {
+      "inherits": "minecraft:small_fireball",
+      "fields": [
+        {
+          "index": 8,
+          "type": "Slot",
+          "default": "Empty (which behaves as if it were a minecraft:fire_charge)",
+          "meaning": "Item",
+          "name": "item"
+        }
+      ]
+    },
+    "minecraft:interaction": {
+      "inherits": "minecraft:interaction",
+      "fields": [
+        {
+          "index": 8,
+          "type": "Float",
+          "default": "1.0",
+          "meaning": "Width",
+          "name": "width"
+        },
+        {
+          "index": 9,
+          "type": "Float",
+          "default": "1.0",
+          "meaning": "Height",
+          "name": "height"
+        },
+        {
+          "index": 10,
+          "type": "Boolean",
+          "default": "false",
+          "meaning": "Responsive - can be attacked/interacted with if true",
+          "name": "responsive"
+        }
+      ]
+    },
+    "minecraft:falling_block": {
+      "inherits": "minecraft:falling_block",
+      "fields": [
+        {
+          "index": 8,
+          "type": "Position",
+          "default": "(0, 0, 0)",
+          "meaning": "spawn position",
+          "name": "spawnPosition"
+        }
+      ]
+    },
+    "minecraft:evoker_fangs": {
+      "inherits": "minecraft:evoker_fangs",
+      "fields": []
+    },
+    "minecraft:area_effect_cloud": {
+      "inherits": "minecraft:area_effect_cloud",
+      "fields": [
+        {
+          "index": 8,
+          "type": "Float",
+          "default": "3.0",
+          "meaning": "Radius",
+          "name": "radius"
+        },
+        {
+          "index": 9,
+          "type": "Boolean",
+          "default": "false",
+          "meaning": "Ignore radius and show effect as single point, not area",
+          "name": "ignoreRadiusShow"
+        },
+        {
+          "index": 10,
+          "type": "Particle",
+          "default": "-1",
+          "meaning": "The particle",
+          "name": "particle"
+        }
+      ]
+    },
+    "minecraft:thrown_item_projectile": {
+      "inherits": "minecraft:entity",
+      "fields": [
+        {
+          "index": 8,
+          "type": "Slot",
+          "default": "Empty (which behaves as the default)",
+          "meaning": "Item",
+          "name": "item"
+        }
+      ]
+    },
+    "minecraft:tnt": {
+      "inherits": "minecraft:tnt",
+      "fields": [
+        {
+          "index": 8,
+          "type": "VarInt",
+          "default": "80",
+          "meaning": "Fuse time",
+          "name": "fuseTime"
+        },
+        {
+          "index": 9,
+          "type": "Block State",
+          "default": "TNT",
+          "meaning": "The block state ID that is exploding",
+          "name": "blockStateExploding"
+        }
+      ]
+    },
+    "minecraft:fireball": {
+      "inherits": "minecraft:fireball",
+      "fields": [
+        {
+          "index": 8,
+          "type": "Slot",
+          "default": "Empty",
+          "meaning": "Item",
+          "name": "item"
+        }
+      ]
+    },
+    "minecraft:eye_of_ender": {
+      "inherits": "minecraft:eye_of_ender",
+      "fields": [
+        {
+          "index": 8,
+          "type": "Slot",
+          "default": "Empty (which behaves as if it were a minecraft:ender_eye)",
+          "meaning": "Item",
+          "name": "item"
+        }
+      ]
+    },
+    "minecraft:item": {
+      "inherits": "minecraft:item",
+      "fields": [
+        {
+          "index": 8,
+          "type": "Slot",
+          "default": "Empty",
+          "meaning": "Item",
+          "name": "item"
+        }
+      ]
+    },
+    "minecraft:abstract_arrow": {
+      "inherits": "minecraft:entity",
+      "fields": [
+        {
+          "index": 8,
+          "type": "Byte",
+          "default": "0",
+          "bitmask": [
+            {
+              "mask": "0x01",
+              "meaning": "Is critical",
+              "name": "critical"
+            },
+            {
+              "mask": "0x02",
+              "meaning": "Is noclip (used by loyalty tridents when returning)",
+              "name": "noclip"
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "type": "Byte",
+          "default": "0",
+          "meaning": "Piercing level",
+          "name": "piercingLevel"
+        },
+        {
+          "index": 10,
+          "type": "Boolean",
+          "default": "false",
+          "meaning": "Is in ground",
+          "name": "ground"
+        }
+      ]
+    },
+    "minecraft:firework_rocket": {
+      "inherits": "minecraft:firework_rocket",
+      "fields": [
+        {
+          "index": 8,
+          "type": "Slot",
+          "default": "Empty",
+          "meaning": "Firework info",
+          "name": "fireworkInfo"
+        },
+        {
+          "index": 9,
+          "type": "Optional VarInt",
+          "default": "Empty",
+          "meaning": "Entity ID of entity which used firework (for elytra boosting)",
+          "name": "entityUsedFirework"
+        },
+        {
+          "index": 10,
+          "type": "Boolean",
+          "default": "false",
+          "meaning": "Is shot at angle (from a crossbow)",
+          "name": "shotAngle"
+        }
+      ]
+    },
+    "minecraft:display": {
+      "inherits": "minecraft:entity",
+      "fields": [
+        {
+          "index": 8,
+          "type": "VarInt",
+          "default": "0",
+          "meaning": "Interpolation delay",
+          "name": "interpolationDelay"
+        },
+        {
+          "index": 9,
+          "type": "VarInt",
+          "default": "0",
+          "meaning": "Transformation interpolation duration",
+          "name": "transformationInterpolationDuration"
+        },
+        {
+          "index": 10,
+          "type": "VarInt",
+          "default": "0",
+          "meaning": "Position/Rotation interpolation duration",
+          "name": "positionRotationInterpolation"
+        },
+        {
+          "index": 11,
+          "type": "Vector3",
+          "default": "(0.0, 0.0, 0.0)",
+          "meaning": "Translation",
+          "name": "translation"
+        },
+        {
+          "index": 12,
+          "type": "Vector3",
+          "default": "(1.0, 1.0, 1.0)",
+          "meaning": "Scale",
+          "name": "scale"
+        },
+        {
+          "index": 13,
+          "type": "Quaternion",
+          "default": "(0.0, 0.0, 0.0, 1.0)",
+          "meaning": "Rotation left",
+          "name": "rotationLeft"
+        },
+        {
+          "index": 14,
+          "type": "Quaternion",
+          "default": "(0.0, 0.0, 0.0, 1.0)",
+          "meaning": "Rotation right",
+          "name": "rotationRight"
+        },
+        {
+          "index": 15,
+          "type": "Byte",
+          "default": "0",
+          "meaning": "Billboard Constraints (0 = FIXED, 1 = VERTICAL, 2 = HORIZONTAL, 3 = CENTER)",
+          "name": "billboardConstraints"
+        },
+        {
+          "index": 16,
+          "type": "VarInt",
+          "default": "-1",
+          "meaning": "Brightness override (blockLight << 4 | skyLight << 20)",
+          "name": "brightnessOverride"
+        },
+        {
+          "index": 17,
+          "type": "Float",
+          "default": "1.0",
+          "meaning": "View range",
+          "name": "viewRange"
+        },
+        {
+          "index": 18,
+          "type": "Float",
+          "default": "0.0",
+          "meaning": "Shadow radius",
+          "name": "shadowRadius"
+        },
+        {
+          "index": 19,
+          "type": "Float",
+          "default": "1.0",
+          "meaning": "Shadow strength",
+          "name": "shadowStrength"
+        },
+        {
+          "index": 20,
+          "type": "Float",
+          "default": "0.0",
+          "meaning": "Width",
+          "name": "width"
+        },
+        {
+          "index": 21,
+          "type": "Float",
+          "default": "0.0",
+          "meaning": "Height",
+          "name": "height"
+        },
+        {
+          "index": 22,
+          "type": "VarInt",
+          "default": "-1",
+          "meaning": "Glow color override",
+          "name": "glowColorOverride"
+        }
+      ]
+    },
+    "minecraft:wind_charge": {
+      "inherits": "minecraft:wind_charge",
+      "fields": []
+    },
+    "minecraft:shulker_bullet": {
+      "inherits": "minecraft:shulker_bullet",
+      "fields": []
+    },
+    "minecraft:wither_skull": {
+      "inherits": "minecraft:wither_skull",
+      "fields": [
+        {
+          "index": 8,
+          "type": "Boolean",
+          "default": "false",
+          "meaning": "Is invulnerable",
+          "name": "invulnerable"
+        }
+      ]
+    },
+    "minecraft:fishing_bobber": {
+      "inherits": "minecraft:fishing_bobber",
+      "fields": [
+        {
+          "index": 8,
+          "type": "VarInt",
+          "default": "0",
+          "meaning": "Hooked entity id + 1, or 0 if there is no hooked entity",
+          "name": "hookedEntity"
+        },
+        {
+          "index": 9,
+          "type": "Boolean",
+          "default": "False",
+          "meaning": "Is catchable",
+          "name": "catchable"
+        }
+      ]
+    },
+    "minecraft:living_entity": {
+      "inherits": "minecraft:entity",
+      "fields": [
+        {
+          "index": 8,
+          "type": "Byte",
+          "default": "0",
+          "bitmask": [
+            {
+              "mask": "0x01",
+              "meaning": "Is hand active",
+              "name": "handActive"
+            },
+            {
+              "mask": "0x02",
+              "meaning": "Active hand (0 = main hand, 1 = offhand)",
+              "name": "activeHand"
+            },
+            {
+              "mask": "0x04",
+              "meaning": "Is in riptide spin attack",
+              "name": "riptideSpinAttack"
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "type": "Float",
+          "default": "1.0",
+          "meaning": "Health",
+          "name": "health"
+        },
+        {
+          "index": 10,
+          "type": "Particles",
+          "default": "0",
+          "meaning": "Potion effect color (or 0 if there is no effect)",
+          "name": "potionEffectColor"
+        },
+        {
+          "index": 11,
+          "type": "Boolean",
+          "default": "false",
+          "meaning": "Is potion effect ambient: reduces the number of particles generated by potions to 1/5 the normal amount",
+          "name": "potionEffectAmbient"
+        },
+        {
+          "index": 12,
+          "type": "VarInt",
+          "default": "0",
+          "meaning": "Number of arrows in entity",
+          "name": "arrowsEntity"
+        },
+        {
+          "index": 13,
+          "type": "VarInt",
+          "default": "0",
+          "meaning": "Number of bee stingers in entity",
+          "name": "beeStingersEntity"
+        },
+        {
+          "index": 14,
+          "type": "Optional Position",
+          "default": "Empty",
+          "meaning": "Location of the bed that the entity is currently sleeping in (Empty if it isn't sleeping)",
+          "name": "locationBedEntity"
+        }
+      ]
+    },
+    "minecraft:experience_orb": {
+      "inherits": "minecraft:experience_orb",
+      "fields": [
+        {
+          "index": 8,
+          "type": "VarInt",
+          "default": "0",
+          "meaning": "The amount of experience this orb will reward once collected.",
+          "name": "amountExperienceOrb"
+        }
+      ]
+    },
+    "minecraft:abstract_vehicle": {
+      "inherits": "minecraft:entity",
+      "fields": [
+        {
+          "index": 8,
+          "type": "VarInt",
+          "default": "0",
+          "meaning": "Shaking power",
+          "name": "shakingPower"
+        },
+        {
+          "index": 9,
+          "type": "VarInt",
+          "default": "1",
+          "meaning": "Shaking direction",
+          "name": "shakingDirection"
+        },
+        {
+          "index": 10,
+          "type": "Float",
+          "default": "0.0",
+          "meaning": "Shaking multiplier",
+          "name": "shakingMultiplier"
+        }
+      ]
+    },
+    "minecraft:end_crystal": {
+      "inherits": "minecraft:end_crystal",
+      "fields": [
+        {
+          "index": 8,
+          "type": "Optional Position",
+          "default": "Empty",
+          "meaning": "Beam target",
+          "name": "beamTarget"
+        },
+        {
+          "index": 9,
+          "type": "Boolean",
+          "default": "true",
+          "meaning": "Show bottom",
+          "name": "showBottom"
+        }
+      ]
+    },
+    "minecraft:dragon_fireball": {
+      "inherits": "minecraft:dragon_fireball",
+      "fields": []
+    },
+    "minecraft:ominous_item_spawner": {
+      "inherits": "minecraft:ominous_item_spawner",
+      "fields": [
+        {
+          "index": 8,
+          "type": "Slot",
+          "default": "Empty",
+          "meaning": "Item",
+          "name": "item"
+        }
+      ]
+    },
+    "minecraft:glow_item_frame": {
+      "inherits": "minecraft:glow_item_frame",
+      "fields": []
+    },
+    "minecraft:lingering_potion": {
+      "inherits": "minecraft:lingering_potion",
+      "fields": []
+    },
+    "minecraft:experience_bottle": {
+      "inherits": "minecraft:experience_bottle",
+      "fields": []
+    },
+    "minecraft:splash_potion": {
+      "inherits": "minecraft:splash_potion",
+      "fields": []
+    },
+    "minecraft:egg": {
+      "inherits": "minecraft:egg",
+      "fields": []
+    },
+    "minecraft:ender_pearl": {
+      "inherits": "minecraft:ender_pearl",
+      "fields": []
+    },
+    "minecraft:snowball": {
+      "inherits": "minecraft:snowball",
+      "fields": []
+    },
+    "minecraft:arrow": {
+      "inherits": "minecraft:arrow",
+      "fields": [
+        {
+          "index": 11,
+          "type": "VarInt",
+          "default": "-1",
+          "meaning": "Color (-1 for no particles)",
+          "name": "color"
+        }
+      ]
+    },
+    "minecraft:trident": {
+      "inherits": "minecraft:trident",
+      "fields": [
+        {
+          "index": 11,
+          "type": "Byte",
+          "default": "0",
+          "meaning": "Loyalty level (enchantment)",
+          "name": "loyaltyLevel"
+        },
+        {
+          "index": 12,
+          "type": "Boolean",
+          "default": "False",
+          "meaning": "Has enchantment glint",
+          "name": "enchantmentGlint"
+        }
+      ]
+    },
+    "minecraft:spectral_arrow": {
+      "inherits": "minecraft:spectral_arrow",
+      "fields": []
+    },
+    "minecraft:text_display": {
+      "inherits": "minecraft:text_display",
+      "fields": [
+        {
+          "index": 23,
+          "type": "Text Component",
+          "default": "Empty",
+          "meaning": "Text",
+          "name": "text"
+        },
+        {
+          "index": 24,
+          "type": "VarInt",
+          "default": "200",
+          "meaning": "Line width",
+          "name": "lineWidth"
+        },
+        {
+          "index": 25,
+          "type": "VarInt",
+          "default": "1073741824 (0x40000000)",
+          "meaning": "Background color",
+          "name": "backgroundColor"
+        },
+        {
+          "index": 26,
+          "type": "Byte",
+          "default": "-1 (fully opaque)",
+          "meaning": "Text opacity",
+          "name": "textOpacity"
+        },
+        {
+          "index": 27,
+          "type": "Byte",
+          "default": "0",
+          "bitmask": [
+            {
+              "mask": "0x01",
+              "meaning": "Has shadow",
+              "name": "shadow"
+            },
+            {
+              "mask": "0x02",
+              "meaning": "Is see through",
+              "name": "see"
+            },
+            {
+              "mask": "0x04",
+              "meaning": "Use default background color",
+              "name": "useDefaultBackground"
+            },
+            {
+              "mask": "0x08",
+              "meaning": "Alignment: * 0 = CENTER * 1 or 3 = LEFT * 2 = RIGHT",
+              "name": "alignment"
+            }
+          ]
+        }
+      ]
+    },
+    "minecraft:item_display": {
+      "inherits": "minecraft:item_display",
+      "fields": [
+        {
+          "index": 23,
+          "type": "Slot",
+          "default": "Empty",
+          "meaning": "Displayed item",
+          "name": "displayedItem"
+        },
+        {
+          "index": 24,
+          "type": "Byte",
+          "default": "0 (NONE)",
+          "meaning": "Display type: * 0 = NONE * 1 = THIRD_PERSON_LEFT_HAND * 2 = THIRD_PERSON_RIGHT_HAND * 3 = FIRST_PERSON_LEFT_HAND * 4 = FIRST_PERSON_RIGHT_HAND * 5 = HEAD * 6 = GUI * 7 = GROUND * 8 = FIXED",
+          "name": "displayType"
+        }
+      ]
+    },
+    "minecraft:block_display": {
+      "inherits": "minecraft:block_display",
+      "fields": [
+        {
+          "index": 23,
+          "type": "Block State",
+          "default": "0 (Air)",
+          "meaning": "Displayed block state",
+          "name": "displayedBlockState"
+        }
+      ]
+    },
+    "minecraft:mob": {
+      "inherits": "minecraft:living_entity",
+      "fields": [
+        {
+          "index": 15,
+          "type": "Byte",
+          "default": "0",
+          "bitmask": [
+            {
+              "mask": "0x01",
+              "meaning": "NoAI",
+              "name": "noai"
+            },
+            {
+              "mask": "0x02",
+              "meaning": "Is left handed",
+              "name": "leftHanded"
+            },
+            {
+              "mask": "0x04",
+              "meaning": "Is aggressive",
+              "name": "aggressive"
+            }
+          ]
+        }
+      ]
+    },
+    "minecraft:armor_stand": {
+      "inherits": "minecraft:armor_stand",
+      "fields": [
+        {
+          "index": 15,
+          "type": "Byte",
+          "default": "0",
+          "bitmask": [
+            {
+              "mask": "0x01",
+              "meaning": "Is Small",
+              "name": "small"
+            },
+            {
+              "mask": "0x02",
+              "meaning": "''Unused''",
+              "name": "unused"
+            },
+            {
+              "mask": "0x04",
+              "meaning": "Has Arms",
+              "name": "arms"
+            },
+            {
+              "mask": "0x08",
+              "meaning": "Has no BasePlate",
+              "name": "baseplate"
+            },
+            {
+              "mask": "0x10",
+              "meaning": "Is Marker",
+              "name": "marker"
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "type": "Rotations",
+          "default": "(0.0, 0.0, 0.0)",
+          "meaning": "Head rotation",
+          "name": "headRotation"
+        },
+        {
+          "index": 17,
+          "type": "Rotations",
+          "default": "(0.0, 0.0, 0.0)",
+          "meaning": "Body rotation",
+          "name": "bodyRotation"
+        },
+        {
+          "index": 18,
+          "type": "Rotations",
+          "default": "(-10.0, 0.0, -10.0)",
+          "meaning": "Left arm rotation",
+          "name": "leftArmRotation"
+        },
+        {
+          "index": 19,
+          "type": "Rotations",
+          "default": "(-15.0, 0.0, 10.0)",
+          "meaning": "Right arm rotation",
+          "name": "rightArmRotation"
+        },
+        {
+          "index": 20,
+          "type": "Rotations",
+          "default": "(-1.0, 0.0, -1.0)",
+          "meaning": "Left leg rotation",
+          "name": "leftLegRotation"
+        },
+        {
+          "index": 21,
+          "type": "Rotations",
+          "default": "(1.0, 0.0, 1.0)",
+          "meaning": "Right leg rotation",
+          "name": "rightLegRotation"
+        }
+      ]
+    },
+    "minecraft:player": {
+      "inherits": "minecraft:player",
+      "fields": [
+        {
+          "index": 15,
+          "type": "Float",
+          "default": "0.0",
+          "meaning": "Additional Hearts",
+          "name": "additionalHearts"
+        },
+        {
+          "index": 16,
+          "type": "VarInt",
+          "default": "0",
+          "meaning": "Score",
+          "name": "score"
+        },
+        {
+          "index": 17,
+          "type": "Byte",
+          "default": "0",
+          "bitmask": [
+            {
+              "mask": "0x01",
+              "meaning": "Cape enabled",
+              "name": "capeEnabled"
+            },
+            {
+              "mask": "0x02",
+              "meaning": "Jacket enabled",
+              "name": "jacketEnabled"
+            },
+            {
+              "mask": "0x04",
+              "meaning": "Left sleeve enabled",
+              "name": "leftSleeveEnabled"
+            },
+            {
+              "mask": "0x08",
+              "meaning": "Right sleeve enabled",
+              "name": "rightSleeveEnabled"
+            },
+            {
+              "mask": "0x10",
+              "meaning": "Left pants leg enabled",
+              "name": "leftPantsLeg"
+            },
+            {
+              "mask": "0x20",
+              "meaning": "Right pants leg enabled",
+              "name": "rightPantsLeg"
+            },
+            {
+              "mask": "0x40",
+              "meaning": "Hat enabled",
+              "name": "hatEnabled"
+            },
+            {
+              "mask": "0x80",
+              "meaning": "''Unused''",
+              "name": "unused"
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "type": "Byte",
+          "default": "1",
+          "meaning": "Main hand (0 : Left, 1 : Right)",
+          "name": "mainHand"
+        },
+        {
+          "index": 19,
+          "type": "NBT",
+          "default": "Empty",
+          "meaning": "Left shoulder entity data (for occupying parrot)",
+          "name": "leftShoulderEntity"
+        },
+        {
+          "index": 20,
+          "type": "NBT",
+          "default": "Empty",
+          "meaning": "Right shoulder entity data (for occupying parrot)",
+          "name": "rightShoulderEntity"
+        }
+      ]
+    },
+    "minecraft:boat": {
+      "inherits": "minecraft:abstract_vehicle",
+      "fields": [
+        {
+          "index": 11,
+          "type": "Boolean",
+          "default": "false",
+          "meaning": "Is left paddle turning",
+          "name": "leftPaddleTurning"
+        },
+        {
+          "index": 12,
+          "type": "Boolean",
+          "default": "false",
+          "meaning": "Is right paddle turning",
+          "name": "rightPaddleTurning"
+        },
+        {
+          "index": 13,
+          "type": "VarInt",
+          "default": "0",
+          "meaning": "Splash timer",
+          "name": "splashTimer"
+        }
+      ]
+    },
+    "minecraft:abstract_minecart": {
+      "inherits": "minecraft:abstract_vehicle",
+      "fields": [
+        {
+          "index": 11,
+          "type": "Optional Block State",
+          "default": "0",
+          "meaning": "Custom block state",
+          "name": "customBlockState"
+        },
+        {
+          "index": 12,
+          "type": "VarInt",
+          "default": "6",
+          "meaning": "Custom block Y position (in 16ths of a block)",
+          "name": "customBlockPosition"
+        }
+      ]
+    },
+    "minecraft:creature": {
+      "inherits": "minecraft:mob",
+      "fields": []
+    },
+    "minecraft:ghast": {
+      "inherits": "minecraft:ghast",
+      "fields": [
+        {
+          "index": 16,
+          "type": "Boolean",
+          "default": "false",
+          "meaning": "Is attacking",
+          "name": "attacking"
+        }
+      ]
+    },
+    "minecraft:slime": {
+      "inherits": "minecraft:slime",
+      "fields": [
+        {
+          "index": 16,
+          "type": "VarInt",
+          "default": "1",
+          "meaning": "Size",
+          "name": "size"
+        }
+      ]
+    },
+    "minecraft:bat": {
+      "inherits": "minecraft:bat",
+      "fields": [
+        {
+          "index": 16,
+          "type": "Byte",
+          "default": "0",
+          "bitmask": [
+            {
+              "mask": "0x01",
+              "meaning": "Is hanging",
+              "name": "hanging"
+            }
+          ]
+        }
+      ]
+    },
+    "minecraft:ender_dragon": {
+      "inherits": "minecraft:ender_dragon",
+      "fields": [
+        {
+          "index": 16,
+          "type": "VarInt",
+          "default": "10 (hover)",
+          "meaning": "Dragon phase",
+          "name": "dragonPhase"
+        }
+      ]
+    },
+    "minecraft:phantom": {
+      "inherits": "minecraft:phantom",
+      "fields": [
+        {
+          "index": 16,
+          "type": "VarInt",
+          "default": "0",
+          "meaning": "Size",
+          "name": "size"
+        }
+      ]
+    },
+    "minecraft:acacia_chest_boat": {
+      "inherits": "minecraft:acacia_chest_boat",
+      "fields": []
+    },
+    "minecraft:jungle_boat": {
+      "inherits": "minecraft:jungle_boat",
+      "fields": []
+    },
+    "minecraft:dark_oak_boat": {
+      "inherits": "minecraft:dark_oak_boat",
+      "fields": []
+    },
+    "minecraft:spruce_chest_boat": {
+      "inherits": "minecraft:spruce_chest_boat",
+      "fields": []
+    },
+    "minecraft:pale_oak_boat": {
+      "inherits": "minecraft:pale_oak_boat",
+      "fields": []
+    },
+    "minecraft:acacia_boat": {
+      "inherits": "minecraft:acacia_boat",
+      "fields": []
+    },
+    "minecraft:pale_oak_chest_boat": {
+      "inherits": "minecraft:pale_oak_chest_boat",
+      "fields": []
+    },
+    "minecraft:mangrove_chest_boat": {
+      "inherits": "minecraft:mangrove_chest_boat",
+      "fields": []
+    },
+    "minecraft:jungle_chest_boat": {
+      "inherits": "minecraft:jungle_chest_boat",
+      "fields": []
+    },
+    "minecraft:bamboo_chest_raft": {
+      "inherits": "minecraft:bamboo_chest_raft",
+      "fields": []
+    },
+    "minecraft:birch_boat": {
+      "inherits": "minecraft:birch_boat",
+      "fields": []
+    },
+    "minecraft:oak_boat": {
+      "inherits": "minecraft:oak_boat",
+      "fields": []
+    },
+    "minecraft:birch_chest_boat": {
+      "inherits": "minecraft:birch_chest_boat",
+      "fields": []
+    },
+    "minecraft:bamboo_raft": {
+      "inherits": "minecraft:bamboo_raft",
+      "fields": []
+    },
+    "minecraft:cherry_chest_boat": {
+      "inherits": "minecraft:cherry_chest_boat",
+      "fields": []
+    },
+    "minecraft:mangrove_boat": {
+      "inherits": "minecraft:mangrove_boat",
+      "fields": []
+    },
+    "minecraft:spruce_boat": {
+      "inherits": "minecraft:spruce_boat",
+      "fields": []
+    },
+    "minecraft:oak_chest_boat": {
+      "inherits": "minecraft:oak_chest_boat",
+      "fields": []
+    },
+    "minecraft:cherry_boat": {
+      "inherits": "minecraft:cherry_boat",
+      "fields": []
+    },
+    "minecraft:dark_oak_chest_boat": {
+      "inherits": "minecraft:dark_oak_chest_boat",
+      "fields": []
+    },
+    "minecraft:tnt_minecart": {
+      "inherits": "minecraft:tnt_minecart",
+      "fields": []
+    },
+    "minecraft:chest_minecart": {
+      "inherits": "minecraft:chest_minecart",
+      "fields": []
+    },
+    "minecraft:minecart": {
+      "inherits": "minecraft:minecart",
+      "fields": []
+    },
+    "minecraft:hopper_minecart": {
+      "inherits": "minecraft:hopper_minecart",
+      "fields": []
+    },
+    "minecraft:command_block_minecart": {
+      "inherits": "minecraft:command_block_minecart",
+      "fields": [
+        {
+          "index": 13,
+          "type": "String",
+          "default": "",
+          "meaning": "Command",
+          "name": "command"
+        },
+        {
+          "index": 14,
+          "type": "Text Component",
+          "default": "{\"text\":\"\"}",
+          "meaning": "Last output",
+          "name": "lastOutput"
+        }
+      ]
+    },
+    "minecraft:spawner_minecart": {
+      "inherits": "minecraft:spawner_minecart",
+      "fields": []
+    },
+    "minecraft:furnace_minecart": {
+      "inherits": "minecraft:furnace_minecart",
+      "fields": [
+        {
+          "index": 13,
+          "type": "Boolean",
+          "default": "false",
+          "meaning": "Has fuel",
+          "name": "fuel"
+        }
+      ]
+    },
+    "minecraft:monster": {
+      "inherits": "minecraft:creature",
+      "fields": []
+    },
+    "minecraft:iron_golem": {
+      "inherits": "minecraft:iron_golem",
+      "fields": [
+        {
+          "index": 16,
+          "type": "Byte",
+          "default": "0",
+          "bitmask": [
+            {
+              "mask": "0x01",
+              "meaning": "Is player-created",
+              "name": "player"
+            }
+          ]
+        }
+      ]
+    },
+    "minecraft:allay": {
+      "inherits": "minecraft:allay",
+      "fields": [
+        {
+          "index": 16,
+          "type": "Boolean",
+          "default": "false",
+          "meaning": "Is dancing",
+          "name": "dancing"
+        },
+        {
+          "index": 17,
+          "type": "Boolean",
+          "default": "true",
+          "meaning": "Can duplicate",
+          "name": "duplicate"
+        }
+      ]
+    },
+    "minecraft:pufferfish": {
+      "inherits": "minecraft:pufferfish",
+      "fields": [
+        {
+          "index": 16,
+          "type": "Boolean",
+          "default": "false",
+          "meaning": "From bucket",
+          "name": "bucket"
+        },
+        {
+          "index": 17,
+          "type": "VarInt",
+          "default": "0",
+          "meaning": "Puff state (0: small, 1: mid, 2: full)",
+          "name": "puffState"
+        }
+      ]
+    },
+    "minecraft:abstract_fish": {
+      "inherits": "minecraft:creature",
+      "fields": [
+        {
+          "index": 16,
+          "type": "Boolean",
+          "default": "False",
+          "meaning": "From bucket",
+          "name": "bucket"
+        }
+      ]
+    },
+    "minecraft:ageable_mob": {
+      "inherits": "minecraft:creature",
+      "fields": [
+        {
+          "index": 16,
+          "type": "Boolean",
+          "default": "false",
+          "meaning": "Is baby",
+          "name": "baby"
+        }
+      ]
+    },
+    "minecraft:tadpole": {
+      "inherits": "minecraft:tadpole",
+      "fields": [
+        {
+          "index": 16,
+          "type": "Boolean",
+          "default": "false",
+          "meaning": "Is from bucket",
+          "name": "bucket"
+        }
+      ]
+    },
+    "minecraft:shulker": {
+      "inherits": "minecraft:shulker",
+      "fields": [
+        {
+          "index": 16,
+          "type": "Direction",
+          "default": "Down (0)",
+          "meaning": "Attach face",
+          "name": "attachFace"
+        },
+        {
+          "index": 17,
+          "type": "Byte",
+          "default": "0",
+          "meaning": "Shield height",
+          "name": "shieldHeight"
+        },
+        {
+          "index": 18,
+          "type": "Byte",
+          "default": "16",
+          "meaning": "Color (dye color)",
+          "name": "color"
+        }
+      ]
+    },
+    "minecraft:snow_golem": {
+      "inherits": "minecraft:snow_golem",
+      "fields": [
+        {
+          "index": 16,
+          "type": "Byte",
+          "default": "0x10",
+          "bitmask": [
+            {
+              "mask": "0x01",
+              "meaning": "''Unused''",
+              "name": "unused"
+            },
+            {
+              "mask": "0x02",
+              "meaning": "''Unused''",
+              "name": "unused"
+            },
+            {
+              "mask": "0x04",
+              "meaning": "''Unused''",
+              "name": "unused"
+            },
+            {
+              "mask": "0x08",
+              "meaning": "''Unused''",
+              "name": "unused"
+            },
+            {
+              "mask": "0x10",
+              "meaning": "Has pumpkin hat",
+              "name": "pumpkinHat"
+            }
+          ]
+        }
+      ]
+    },
+    "minecraft:magma_cube": {
+      "inherits": "minecraft:magma_cube",
+      "fields": []
+    },
+    "minecraft:breeze": {
+      "inherits": "minecraft:breeze",
+      "fields": []
+    },
+    "minecraft:stray": {
+      "inherits": "minecraft:stray",
+      "fields": []
+    },
+    "minecraft:bogged": {
+      "inherits": "minecraft:bogged",
+      "fields": [
+        {
+          "index": 16,
+          "type": "Boolean",
+          "default": "false",
+          "meaning": "Is sheared",
+          "name": "sheared"
+        }
+      ]
+    },
+    "minecraft:endermite": {
+      "inherits": "minecraft:endermite",
+      "fields": []
+    },
+    "minecraft:enderman": {
+      "inherits": "minecraft:enderman",
+      "fields": [
+        {
+          "index": 16,
+          "type": "Optional Block State",
+          "default": "Absent",
+          "meaning": "Carried block",
+          "name": "carriedBlock"
+        },
+        {
+          "index": 17,
+          "type": "Boolean",
+          "default": "false",
+          "meaning": "Is screaming",
+          "name": "screaming"
+        },
+        {
+          "index": 18,
+          "type": "Boolean",
+          "default": "false",
+          "meaning": "Is staring",
+          "name": "staring"
+        }
+      ]
+    },
+    "minecraft:zoglin": {
+      "inherits": "minecraft:zoglin",
+      "fields": [
+        {
+          "index": 16,
+          "type": "Boolean",
+          "default": "false",
+          "meaning": "Is baby",
+          "name": "baby"
+        }
+      ]
+    },
+    "minecraft:zombie": {
+      "inherits": "minecraft:zombie",
+      "fields": [
+        {
+          "index": 16,
+          "type": "Boolean",
+          "default": "false",
+          "meaning": "Is baby",
+          "name": "baby"
+        },
+        {
+          "index": 17,
+          "type": "VarInt",
+          "default": "0",
+          "meaning": "''Unused'' (previously type)",
+          "name": "unused"
+        },
+        {
+          "index": 18,
+          "type": "Boolean",
+          "default": "false",
+          "meaning": "Is becoming a drowned",
+          "name": "becomingDrowned"
+        }
+      ]
+    },
+    "minecraft:creeper": {
+      "inherits": "minecraft:creeper",
+      "fields": [
+        {
+          "index": 16,
+          "type": "VarInt",
+          "default": "-1",
+          "meaning": "State (-1 = idle, 1 = fuse)",
+          "name": "state"
+        },
+        {
+          "index": 17,
+          "type": "Boolean",
+          "default": "false",
+          "meaning": "Is charged",
+          "name": "charged"
+        },
+        {
+          "index": 18,
+          "type": "Boolean",
+          "default": "false",
+          "meaning": "Is ignited",
+          "name": "ignited"
+        }
+      ]
+    },
+    "minecraft:vex": {
+      "inherits": "minecraft:vex",
+      "fields": [
+        {
+          "index": 16,
+          "type": "Byte",
+          "default": "0",
+          "bitmask": [
+            {
+              "mask": "0x01",
+              "meaning": "Is attacking",
+              "name": "attacking"
+            }
+          ]
+        }
+      ]
+    },
+    "minecraft:wither_skeleton": {
+      "inherits": "minecraft:wither_skeleton",
+      "fields": []
+    },
+    "minecraft:guardian": {
+      "inherits": "minecraft:guardian",
+      "fields": [
+        {
+          "index": 16,
+          "type": "Boolean",
+          "default": "false",
+          "meaning": "Is retracting spikes",
+          "name": "retractingSpikes"
+        },
+        {
+          "index": 17,
+          "type": "VarInt",
+          "default": "0",
+          "meaning": "Target EID",
+          "name": "targetEid"
+        }
+      ]
+    },
+    "minecraft:creaking": {
+      "inherits": "minecraft:creaking",
+      "fields": [
+        {
+          "index": 16,
+          "type": "Boolean",
+          "default": "true",
+          "meaning": "Can move",
+          "name": "move"
+        },
+        {
+          "index": 17,
+          "type": "Boolean",
+          "default": "false",
+          "meaning": "Is active",
+          "name": "active"
+        },
+        {
+          "index": 18,
+          "type": "Boolean",
+          "default": "false",
+          "meaning": "Is tearing down",
+          "name": "tearing"
+        },
+        {
+          "index": 19,
+          "type": "Optional Position",
+          "default": "Empty",
+          "meaning": "Home position",
+          "name": "homePosition"
+        }
+      ]
+    },
+    "minecraft:skeleton": {
+      "inherits": "minecraft:skeleton",
+      "fields": [
+        {
+          "index": 16,
+          "type": "Boolean",
+          "default": "false",
+          "meaning": "Is being converted into a Stray",
+          "name": "convertedStray"
+        }
+      ]
+    },
+    "minecraft:wither": {
+      "inherits": "minecraft:wither",
+      "fields": [
+        {
+          "index": 16,
+          "type": "VarInt",
+          "default": "0",
+          "meaning": "Center head's target (entity ID, or 0 if no target)",
+          "name": "centerHeadsTarget"
+        },
+        {
+          "index": 17,
+          "type": "VarInt",
+          "default": "0",
+          "meaning": "Left head's target (entity ID, or 0 if no target)",
+          "name": "leftHeadsTarget"
+        },
+        {
+          "index": 18,
+          "type": "VarInt",
+          "default": "0",
+          "meaning": "Right head's target (entity ID, or 0 if no target)",
+          "name": "rightHeadsTarget"
+        },
+        {
+          "index": 19,
+          "type": "VarInt",
+          "default": "0",
+          "meaning": "Invulnerable time",
+          "name": "invulnerableTime"
+        }
+      ]
+    },
+    "minecraft:raider": {
+      "inherits": "minecraft:monster",
+      "fields": [
+        {
+          "index": 16,
+          "type": "Boolean",
+          "default": "false",
+          "meaning": "Is celebrating",
+          "name": "celebrating"
+        }
+      ]
+    },
+    "minecraft:silverfish": {
+      "inherits": "minecraft:silverfish",
+      "fields": []
+    },
+    "minecraft:spider": {
+      "inherits": "minecraft:spider",
+      "fields": [
+        {
+          "index": 16,
+          "type": "Byte",
+          "default": "0",
+          "bitmask": [
+            {
+              "mask": "0x01",
+              "meaning": "Is climbing",
+              "name": "climbing"
+            }
+          ]
+        }
+      ]
+    },
+    "minecraft:warden": {
+      "inherits": "minecraft:warden",
+      "fields": [
+        {
+          "index": 16,
+          "type": "VarInt",
+          "default": "0",
+          "meaning": "Anger Level",
+          "name": "angerLevel"
+        }
+      ]
+    },
+    "minecraft:blaze": {
+      "inherits": "minecraft:blaze",
+      "fields": [
+        {
+          "index": 16,
+          "type": "Byte",
+          "default": "0",
+          "bitmask": [
+            {
+              "mask": "0x01",
+              "meaning": "Is on fire",
+              "name": "fire"
+            }
+          ]
+        }
+      ]
+    },
+    "minecraft:base_piglin": {
+      "inherits": "minecraft:monster",
+      "fields": [
+        {
+          "index": 16,
+          "type": "Boolean",
+          "default": "false",
+          "meaning": "Is immune to zombification",
+          "name": "immuneZombification"
+        }
+      ]
+    },
+    "minecraft:giant": {
+      "inherits": "minecraft:giant",
+      "fields": []
+    },
+    "minecraft:salmon": {
+      "inherits": "minecraft:salmon",
+      "fields": [
+        {
+          "index": 17,
+          "type": "VarInt",
+          "default": "1",
+          "meaning": "Type (0 = SMALL, 1 = MEDIUM, 2 = LARGE)",
+          "name": "type"
+        }
+      ]
+    },
+    "minecraft:cod": {
+      "inherits": "minecraft:cod",
+      "fields": []
+    },
+    "minecraft:tropical_fish": {
+      "inherits": "minecraft:tropical_fish",
+      "fields": [
+        {
+          "index": 17,
+          "type": "VarInt",
+          "default": "0",
+          "meaning": "Variant",
+          "name": "variant"
+        }
+      ]
+    },
+    "minecraft:animal": {
+      "inherits": "minecraft:ageable_mob",
+      "fields": []
+    },
+    "minecraft:abstract_villager": {
+      "inherits": "minecraft:ageable_mob",
+      "fields": [
+        {
+          "index": 17,
+          "type": "VarInt",
+          "default": "0",
+          "meaning": "Head shake timer (starts at 40, decrements each tick)",
+          "name": "headShakeTimer"
+        }
+      ]
+    },
+    "minecraft:dolphin": {
+      "inherits": "minecraft:dolphin",
+      "fields": [
+        {
+          "index": 17,
+          "type": "Boolean",
+          "default": "false",
+          "meaning": "Has fish",
+          "name": "fish"
+        },
+        {
+          "index": 18,
+          "type": "VarInt",
+          "default": "2400",
+          "meaning": "Moisture level",
+          "name": "moistureLevel"
+        }
+      ]
+    },
+    "minecraft:squid": {
+      "inherits": "minecraft:squid",
+      "fields": []
+    },
+    "minecraft:zombified_piglin": {
+      "inherits": "minecraft:zombified_piglin",
+      "fields": []
+    },
+    "minecraft:zombie_villager": {
+      "inherits": "minecraft:zombie_villager",
+      "fields": [
+        {
+          "index": 19,
+          "type": "Boolean",
+          "default": "false",
+          "meaning": "Is converting",
+          "name": "converting"
+        },
+        {
+          "index": 20,
+          "type": "Villager Data",
+          "default": "Plains/None/1",
+          "meaning": "Villager Data",
+          "name": "villagerData"
+        }
+      ]
+    },
+    "minecraft:husk": {
+      "inherits": "minecraft:husk",
+      "fields": []
+    },
+    "minecraft:drowned": {
+      "inherits": "minecraft:drowned",
+      "fields": []
+    },
+    "minecraft:elder_guardian": {
+      "inherits": "minecraft:elder_guardian",
+      "fields": []
+    },
+    "minecraft:witch": {
+      "inherits": "minecraft:witch",
+      "fields": [
+        {
+          "index": 17,
+          "type": "Boolean",
+          "default": "false",
+          "meaning": "Is drinking potion",
+          "name": "drinkingPotion"
+        }
+      ]
+    },
+    "minecraft:pillager": {
+      "inherits": "minecraft:pillager",
+      "fields": [
+        {
+          "index": 17,
+          "type": "Boolean",
+          "default": "false",
+          "meaning": "Is charging",
+          "name": "charging"
+        }
+      ]
+    },
+    "minecraft:spellcaster_illager": {
+      "inherits": "minecraft:raider",
+      "fields": [
+        {
+          "index": 17,
+          "type": "Byte",
+          "default": "0",
+          "meaning": "Spell (0: none, 1: summon vex, 2: attack, 3: wololo, 4: disappear, 5: blindness)",
+          "name": "spell"
+        }
+      ]
+    },
+    "minecraft:ravager": {
+      "inherits": "minecraft:ravager",
+      "fields": []
+    },
+    "minecraft:vindicator": {
+      "inherits": "minecraft:vindicator",
+      "fields": []
+    },
+    "minecraft:cave_spider": {
+      "inherits": "minecraft:cave_spider",
+      "fields": []
+    },
+    "minecraft:piglin_brute": {
+      "inherits": "minecraft:piglin_brute",
+      "fields": []
+    },
+    "minecraft:piglin": {
+      "inherits": "minecraft:piglin",
+      "fields": [
+        {
+          "index": 17,
+          "type": "Boolean",
+          "default": "false",
+          "meaning": "Is baby",
+          "name": "baby"
+        },
+        {
+          "index": 18,
+          "type": "Boolean",
+          "default": "false",
+          "meaning": "Is charging crossbow",
+          "name": "chargingCrossbow"
+        },
+        {
+          "index": 19,
+          "type": "Boolean",
+          "default": "false",
+          "meaning": "Is dancing",
+          "name": "dancing"
+        }
+      ]
+    },
+    "minecraft:cow": {
+      "inherits": "minecraft:cow",
+      "fields": [
+        {
+          "index": 17,
+          "type": "Cow Variant",
+          "default": "TEMPERATE",
+          "meaning": "Variant",
+          "name": "variant"
+        }
+      ]
+    },
+    "minecraft:ocelot": {
+      "inherits": "minecraft:ocelot",
+      "fields": [
+        {
+          "index": 17,
+          "type": "Boolean",
+          "default": "false",
+          "meaning": "Is trusting",
+          "name": "trusting"
+        }
+      ]
+    },
+    "minecraft:happy_ghast": {
+      "inherits": "minecraft:happy_ghast",
+      "fields": [
+        {
+          "index": 17,
+          "type": "Boolean",
+          "default": "false",
+          "meaning": "Is leash holder",
+          "name": "leashHolder"
+        },
+        {
+          "index": 18,
+          "type": "Boolean",
+          "default": "false",
+          "meaning": "Stays still",
+          "name": "staysStill"
+        }
+      ]
+    },
+    "minecraft:rabbit": {
+      "inherits": "minecraft:rabbit",
+      "fields": [
+        {
+          "index": 17,
+          "type": "VarInt",
+          "default": "0",
+          "meaning": "Type",
+          "name": "type"
+        }
+      ]
+    },
+    "minecraft:sniffer": {
+      "inherits": "minecraft:sniffer",
+      "fields": [
+        {
+          "index": 17,
+          "type": "Sniffer State",
+          "default": "IDLING",
+          "meaning": "Sniffer State",
+          "name": "snifferState"
+        },
+        {
+          "index": 18,
+          "type": "VarInt",
+          "default": "0",
+          "meaning": "Drop seed at tick",
+          "name": "dropSeedTick"
+        }
+      ]
+    },
+    "minecraft:abstract_horse": {
+      "inherits": "minecraft:animal",
+      "fields": [
+        {
+          "index": 17,
+          "type": "Byte",
+          "default": "0",
+          "bitmask": [
+            {
+              "mask": "0x01",
+              "meaning": "''Unused''",
+              "name": "unused"
+            },
+            {
+              "mask": "0x02",
+              "meaning": "Is tame",
+              "name": "tame"
+            },
+            {
+              "mask": "0x04",
+              "meaning": "''Unused'' (previously is saddled)",
+              "name": "unused"
+            },
+            {
+              "mask": "0x08",
+              "meaning": "Has bred",
+              "name": "bred"
+            },
+            {
+              "mask": "0x10",
+              "meaning": "Is eating",
+              "name": "eating"
+            },
+            {
+              "mask": "0x20",
+              "meaning": "Is rearing (on hind legs)",
+              "name": "rearing"
+            },
+            {
+              "mask": "0x40",
+              "meaning": "Is mouth open",
+              "name": "mouthOpen"
+            }
+          ]
+        }
+      ]
+    },
+    "minecraft:bee": {
+      "inherits": "minecraft:bee",
+      "fields": [
+        {
+          "index": 17,
+          "type": "Byte",
+          "default": "0",
+          "bitmask": [
+            {
+              "mask": "0x01",
+              "meaning": "''Unused''",
+              "name": "unused"
+            },
+            {
+              "mask": "0x02",
+              "meaning": "Is angry",
+              "name": "angry"
+            },
+            {
+              "mask": "0x04",
+              "meaning": "Has stung",
+              "name": "stung"
+            },
+            {
+              "mask": "0x08",
+              "meaning": "Has nectar",
+              "name": "nectar"
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "type": "VarInt",
+          "default": "0 (Not angry)",
+          "meaning": "Anger time in ticks",
+          "name": "angerTimeTicks"
+        }
+      ]
+    },
+    "minecraft:goat": {
+      "inherits": "minecraft:goat",
+      "fields": [
+        {
+          "index": 17,
+          "type": "Boolean",
+          "default": "false",
+          "meaning": "Is Screaming Goat",
+          "name": "screamingGoat"
+        },
+        {
+          "index": 18,
+          "type": "Boolean",
+          "default": "true",
+          "meaning": "Has Left Horn",
+          "name": "leftHorn"
+        },
+        {
+          "index": 19,
+          "type": "Boolean",
+          "default": "true",
+          "meaning": "Has Right Horn",
+          "name": "rightHorn"
+        }
+      ]
+    },
+    "minecraft:axolotl": {
+      "inherits": "minecraft:axolotl",
+      "fields": [
+        {
+          "index": 17,
+          "type": "VarInt",
+          "default": "0 (lucy)",
+          "meaning": "Variant (0 = lucy, 1 = wild, 2 = gold, 3 = cyan, 4 = blue)",
+          "name": "variant"
+        },
+        {
+          "index": 18,
+          "type": "Boolean",
+          "default": "false",
+          "meaning": "If it is currently playing dead.",
+          "name": "playingDead"
+        },
+        {
+          "index": 19,
+          "type": "Boolean",
+          "default": "false",
+          "meaning": "If it was spawned from a bucket.",
+          "name": "spawnedBucket"
+        }
+      ]
+    },
+    "minecraft:strider": {
+      "inherits": "minecraft:strider",
+      "fields": [
+        {
+          "index": 17,
+          "type": "VarInt",
+          "default": "0",
+          "meaning": "Total time to \"boost\" with warped fungus on a stick for",
+          "name": "timeBoostWarped"
+        },
+        {
+          "index": 18,
+          "type": "Boolean",
+          "default": "false",
+          "meaning": "Is shaking (true unless riding a vehicle or on or in a block tagged with strider_warm_blocks (default: lava))",
+          "name": "shaking"
+        }
+      ]
+    },
+    "minecraft:polar_bear": {
+      "inherits": "minecraft:polar_bear",
+      "fields": [
+        {
+          "index": 17,
+          "type": "Boolean",
+          "default": "false",
+          "meaning": "Is standing up",
+          "name": "standing"
+        }
+      ]
+    },
+    "minecraft:chicken": {
+      "inherits": "minecraft:chicken",
+      "fields": [
+        {
+          "index": 17,
+          "type": "Chicken Variant",
+          "default": "TEMPERATE",
+          "meaning": "Variant",
+          "name": "variant"
+        }
+      ]
+    },
+    "minecraft:pig": {
+      "inherits": "minecraft:pig",
+      "fields": [
+        {
+          "index": 17,
+          "type": "VarInt",
+          "default": "0",
+          "meaning": "Total time to \"boost\" with a carrot on a stick for",
+          "name": "timeBoostCarrot"
+        },
+        {
+          "index": 18,
+          "type": "Pig Variant",
+          "default": "TEMPERATE",
+          "meaning": "Variant",
+          "name": "variant"
+        }
+      ]
+    },
+    "minecraft:armadillo": {
+      "inherits": "minecraft:armadillo",
+      "fields": [
+        {
+          "index": 17,
+          "type": "Armadillo State",
+          "default": "IDLE",
+          "meaning": "Armadillo state",
+          "name": "armadilloState"
+        }
+      ]
+    },
+    "minecraft:mooshroom": {
+      "inherits": "minecraft:mooshroom",
+      "fields": [
+        {
+          "index": 17,
+          "type": "VarInt",
+          "default": "red",
+          "meaning": "Variant (\"red\" or \"brown\")",
+          "name": "variant"
+        }
+      ]
+    },
+    "minecraft:sheep": {
+      "inherits": "minecraft:sheep",
+      "fields": [
+        {
+          "index": 17,
+          "type": "Byte",
+          "default": "0",
+          "bitmask": [
+            {
+              "mask": "0x0F",
+              "meaning": "Color ID",
+              "name": "color"
+            },
+            {
+              "mask": "0x10",
+              "meaning": "Is sheared",
+              "name": "sheared"
+            }
+          ]
+        }
+      ]
+    },
+    "minecraft:hoglin": {
+      "inherits": "minecraft:hoglin",
+      "fields": [
+        {
+          "index": 17,
+          "type": "Boolean",
+          "default": "false",
+          "meaning": "Is immune to zombification",
+          "name": "immuneZombification"
+        }
+      ]
+    },
+    "minecraft:tameable_animal": {
+      "inherits": "minecraft:animal",
+      "fields": [
+        {
+          "index": 17,
+          "type": "Byte",
+          "default": "0",
+          "bitmask": [
+            {
+              "mask": "0x01",
+              "meaning": "Is sitting",
+              "name": "sitting"
+            },
+            {
+              "mask": "0x02",
+              "meaning": "''Unused''",
+              "name": "unused"
+            },
+            {
+              "mask": "0x04",
+              "meaning": "Is tamed",
+              "name": "tamed"
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "type": "Optional Living Entity Reference",
+          "default": "Absent",
+          "meaning": "Owner",
+          "name": "owner"
+        }
+      ]
+    },
+    "minecraft:fox": {
+      "inherits": "minecraft:fox",
+      "fields": [
+        {
+          "index": 17,
+          "type": "VarInt",
+          "default": "0 (red)",
+          "meaning": "Type (0: red, 1: snow)",
+          "name": "type"
+        },
+        {
+          "index": 18,
+          "type": "Byte",
+          "default": "0",
+          "bitmask": [
+            {
+              "mask": "0x01",
+              "meaning": "Is sitting",
+              "name": "sitting"
+            },
+            {
+              "mask": "0x02",
+              "meaning": "''Unused''",
+              "name": "unused"
+            },
+            {
+              "mask": "0x04",
+              "meaning": "Is crouching",
+              "name": "crouching"
+            },
+            {
+              "mask": "0x08",
+              "meaning": "Is interested",
+              "name": "interested"
+            },
+            {
+              "mask": "0x10",
+              "meaning": "Is pouncing",
+              "name": "pouncing"
+            },
+            {
+              "mask": "0x20",
+              "meaning": "Is sleeping",
+              "name": "sleeping"
+            },
+            {
+              "mask": "0x40",
+              "meaning": "Is faceplanted",
+              "name": "faceplanted"
+            },
+            {
+              "mask": "0x80",
+              "meaning": "Is defending",
+              "name": "defending"
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "type": "Optional Living Entity Reference",
+          "default": "Absent",
+          "meaning": "First UUID (in UUIDs NBT)?",
+          "name": "firstUuid"
+        },
+        {
+          "index": 20,
+          "type": "Optional Living Entity Reference",
+          "default": "Absent",
+          "meaning": "Second UUID (in UUIDs NBT)?",
+          "name": "secondUuid"
+        }
+      ]
+    },
+    "minecraft:frog": {
+      "inherits": "minecraft:frog",
+      "fields": [
+        {
+          "index": 17,
+          "type": "Frog Variant",
+          "default": "TEMPERATE",
+          "meaning": "Frog Variant",
+          "name": "frogVariant"
+        },
+        {
+          "index": 18,
+          "type": "Optional VarInt",
+          "default": "0",
+          "meaning": "Tongue Target",
+          "name": "tongueTarget"
+        }
+      ]
+    },
+    "minecraft:panda": {
+      "inherits": "minecraft:panda",
+      "fields": [
+        {
+          "index": 17,
+          "type": "VarInt",
+          "default": "0",
+          "meaning": "Breed timer? Set to 32 when something happens, and then counts down to 0 again. At 29 and 14 (before counting down), will play the entity.panda.cant_breed sound event.",
+          "name": "breedTimer"
+        },
+        {
+          "index": 18,
+          "type": "VarInt",
+          "default": "0",
+          "meaning": "Sneeze timer. Counts up from 0; when it hits 1 the entity.panda.pre_sneeze event plays and when it hits 21 the entity.panda.sneeze event plays (and it is set back to 0 and the sneeze flag is cleared).",
+          "name": "sneezeTimer"
+        },
+        {
+          "index": 19,
+          "type": "VarInt",
+          "default": "0",
+          "meaning": "Eat timer. If nonzero, counts upwards.",
+          "name": "eatTimer"
+        },
+        {
+          "index": 20,
+          "type": "Byte",
+          "default": "0",
+          "meaning": "Main Gene",
+          "name": "mainGene"
+        },
+        {
+          "index": 21,
+          "type": "Byte",
+          "default": "0",
+          "meaning": "Hidden Gene",
+          "name": "hiddenGene"
+        },
+        {
+          "index": 22,
+          "type": "Byte",
+          "default": "0",
+          "bitmask": [
+            {
+              "mask": "0x01",
+              "meaning": "''Unused''",
+              "name": "unused"
+            },
+            {
+              "mask": "0x02",
+              "meaning": "Is sneezing",
+              "name": "sneezing"
+            },
+            {
+              "mask": "0x04",
+              "meaning": "Is rolling",
+              "name": "rolling"
+            },
+            {
+              "mask": "0x08",
+              "meaning": "Is sitting",
+              "name": "sitting"
+            },
+            {
+              "mask": "0x10",
+              "meaning": "Is on back",
+              "name": "back"
+            }
+          ]
+        }
+      ]
+    },
+    "minecraft:turtle": {
+      "inherits": "minecraft:turtle",
+      "fields": [
+        {
+          "index": 17,
+          "type": "Boolean",
+          "default": "false",
+          "meaning": "Has egg",
+          "name": "egg"
+        },
+        {
+          "index": 18,
+          "type": "Boolean",
+          "default": "false",
+          "meaning": "Laying egg",
+          "name": "layingEgg"
+        }
+      ]
+    },
+    "minecraft:wandering_trader": {
+      "inherits": "minecraft:wandering_trader",
+      "fields": []
+    },
+    "minecraft:villager": {
+      "inherits": "minecraft:villager",
+      "fields": [
+        {
+          "index": 18,
+          "type": "Villager Data",
+          "default": "Plains/None/1",
+          "meaning": "Villager Data",
+          "name": "villagerData"
+        }
+      ]
+    },
+    "minecraft:glow_squid": {
+      "inherits": "minecraft:glow_squid",
+      "fields": [
+        {
+          "index": 17,
+          "type": "VarInt",
+          "default": "0",
+          "meaning": "Dark ticks remaining",
+          "name": "darkTicksRemaining"
+        }
+      ]
+    },
+    "minecraft:illusioner": {
+      "inherits": "minecraft:illusioner",
+      "fields": []
+    },
+    "minecraft:evoker": {
+      "inherits": "minecraft:evoker",
+      "fields": []
+    },
+    "minecraft:camel": {
+      "inherits": "minecraft:camel",
+      "fields": [
+        {
+          "index": 18,
+          "type": "Boolean",
+          "default": "False",
+          "meaning": "Is dashing",
+          "name": "dashing"
+        },
+        {
+          "index": 19,
+          "type": "VarLong",
+          "default": "0",
+          "meaning": "Last pose change tick",
+          "name": "lastPoseChange"
+        }
+      ]
+    },
+    "minecraft:zombie_horse": {
+      "inherits": "minecraft:zombie_horse",
+      "fields": []
+    },
+    "minecraft:skeleton_horse": {
+      "inherits": "minecraft:skeleton_horse",
+      "fields": []
+    },
+    "minecraft:chested_horse": {
+      "inherits": "minecraft:abstract_horse",
+      "fields": [
+        {
+          "index": 18,
+          "type": "Boolean",
+          "default": "false",
+          "meaning": "Has Chest",
+          "name": "chest"
+        }
+      ]
+    },
+    "minecraft:horse": {
+      "inherits": "minecraft:horse",
+      "fields": [
+        {
+          "index": 18,
+          "type": "VarInt",
+          "default": "0",
+          "meaning": "Variant (Color & Style)",
+          "name": "variant"
+        }
+      ]
+    },
+    "minecraft:cat": {
+      "inherits": "minecraft:cat",
+      "fields": [
+        {
+          "index": 19,
+          "type": "Cat Variant",
+          "default": "BLACK",
+          "meaning": "Cat Variant",
+          "name": "catVariant"
+        },
+        {
+          "index": 20,
+          "type": "Boolean",
+          "default": "false",
+          "meaning": "Is lying",
+          "name": "lying"
+        },
+        {
+          "index": 21,
+          "type": "Boolean",
+          "default": "false",
+          "meaning": "Is relaxed? (This makes their head go slightly upwards, unknown when used)",
+          "name": "relaxed"
+        },
+        {
+          "index": 22,
+          "type": "VarInt",
+          "default": "14 (Red)",
+          "meaning": "Collar color (values are those used with dyes)",
+          "name": "collarColor"
+        }
+      ]
+    },
+    "minecraft:parrot": {
+      "inherits": "minecraft:parrot",
+      "fields": [
+        {
+          "index": 19,
+          "type": "VarInt",
+          "default": "0",
+          "meaning": "Variant (0: red/blue, 1: blue, 2: green, 3: yellow/blue, 4: grey)",
+          "name": "variant"
+        }
+      ]
+    },
+    "minecraft:wolf": {
+      "inherits": "minecraft:wolf",
+      "fields": [
+        {
+          "index": 19,
+          "type": "Boolean",
+          "default": "false",
+          "meaning": "Is begging",
+          "name": "begging"
+        },
+        {
+          "index": 20,
+          "type": "VarInt",
+          "default": "14 (Red)",
+          "meaning": "Collar color (values are those used with dyes)",
+          "name": "collarColor"
+        },
+        {
+          "index": 21,
+          "type": "VarInt",
+          "default": "0",
+          "meaning": "Anger time",
+          "name": "angerTime"
+        },
+        {
+          "index": 22,
+          "type": "Wolf Variant",
+          "default": "PALE",
+          "meaning": "Variant",
+          "name": "variant"
+        },
+        {
+          "index": 23,
+          "type": "Wolf Sound Variant",
+          "default": "CLASSIC",
+          "meaning": "Sound variant",
+          "name": "soundVariant"
+        }
+      ]
+    },
+    "minecraft:mule": {
+      "inherits": "minecraft:mule",
+      "fields": []
+    },
+    "minecraft:donkey": {
+      "inherits": "minecraft:donkey",
+      "fields": []
+    },
+    "minecraft:llama": {
+      "inherits": "minecraft:llama",
+      "fields": [
+        {
+          "index": 19,
+          "type": "VarInt",
+          "default": "0",
+          "meaning": "Strength (number of columns of 3 slots in the llama's inventory once a chest is equipped)",
+          "name": "strength"
+        },
+        {
+          "index": 20,
+          "type": "VarInt",
+          "default": "0",
+          "meaning": "Variant (0: llama_creamy.png, 1: llama_white.png, 2: llama_brown.png, 3: llama_gray.png)",
+          "name": "variant"
+        }
+      ]
+    },
+    "minecraft:trader_llama": {
+      "inherits": "minecraft:trader_llama",
+      "fields": []
+    }
+  }
+}

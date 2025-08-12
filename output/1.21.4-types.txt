@@ -1,0 +1,211 @@
+Byte
+VarInt
+Optional Text Component
+Boolean
+Boolean
+Boolean
+Pose
+VarInt
+Painting Variant
+Slot
+VarInt
+VarInt
+VarInt
+Boolean
+Slot
+Float
+Float
+Boolean
+Position
+Float
+Boolean
+Particle
+Slot
+VarInt
+Block State
+Slot
+Slot
+Slot
+Byte
+Byte
+Boolean
+Slot
+Optional VarInt
+Boolean
+VarInt
+VarInt
+VarInt
+Vector3
+Vector3
+Quaternion
+Quaternion
+Byte
+VarInt
+Float
+Float
+Float
+Float
+Float
+VarInt
+Boolean
+VarInt
+Boolean
+Byte
+Float
+Particles
+Boolean
+VarInt
+VarInt
+Optional Position
+Boolean
+Boolean
+VarInt
+Optional Position
+Boolean
+Slot
+String
+Text Component
+Boolean
+VarInt
+Byte
+Boolean
+Text Component
+VarInt
+VarInt
+Byte
+Byte
+Slot
+Byte
+Block State
+Byte
+Byte
+Rotations
+Rotations
+Rotations
+Rotations
+Rotations
+Rotations
+Float
+VarInt
+Byte
+Byte
+NBT
+NBT
+Boolean
+VarInt
+Byte
+VarInt
+VarInt
+Byte
+Boolean
+Boolean
+VarInt
+Boolean
+Boolean
+Direction
+Byte
+Byte
+Byte
+Boolean
+Boolean
+Optional Block State
+Boolean
+Boolean
+Boolean
+Boolean
+VarInt
+Boolean
+VarInt
+Boolean
+Boolean
+Byte
+Boolean
+VarInt
+Boolean
+Boolean
+Boolean
+Optional Position
+Boolean
+VarInt
+VarInt
+VarInt
+VarInt
+Boolean
+Boolean
+Boolean
+Boolean
+Byte
+VarInt
+Boolean
+Byte
+VarInt
+Position
+Boolean
+VarInt
+VarInt
+VarInt
+Boolean
+Villager Data
+Boolean
+Boolean
+Byte
+Boolean
+VarInt
+Sniffer State
+VarInt
+Byte
+Byte
+VarInt
+Boolean
+Boolean
+Boolean
+VarInt
+Boolean
+Boolean
+VarInt
+Boolean
+Boolean
+Boolean
+Boolean
+VarInt
+Armadillo State
+Byte
+Boolean
+Byte
+Optional UUID
+VarInt
+Byte
+Optional UUID
+Optional UUID
+Frog Variant
+Optional VarInt
+VarInt
+VarInt
+VarInt
+Byte
+Byte
+Byte
+Position
+Boolean
+Boolean
+Position
+Boolean
+Boolean
+Villager Data
+VarInt
+String
+Boolean
+VarLong
+Boolean
+VarInt
+Cat Variant
+Boolean
+Boolean
+VarInt
+VarInt
+Boolean
+VarInt
+VarInt
+Wolf Variant
+VarInt
+VarInt

@@ -1,0 +1,592 @@
+[
+  {
+    "date": "24 July 2025",
+    "time": "21:27",
+    "editor": "Mat5905",
+    "file_size": "74,177",
+    "change_bytes": "-3076794",
+    "description": "1.21.8",
+    "wiki_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?oldid=3076794",
+    "edit_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?action=edit&oldid=3076794"
+  },
+  {
+    "date": "30 June 2025",
+    "time": "19:14",
+    "editor": "Mat5905",
+    "file_size": "74,177",
+    "change_bytes": "-3038088",
+    "description": "1.21.7",
+    "wiki_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?oldid=3038088",
+    "edit_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?action=edit&oldid=3038088"
+  },
+  {
+    "date": "17 June 2025",
+    "time": "18:59",
+    "editor": "Mat5905",
+    "file_size": "73,911",
+    "change_bytes": "-3018858",
+    "description": "1.21.6",
+    "wiki_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?oldid=3018858",
+    "edit_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?action=edit&oldid=3018858"
+  },
+  {
+    "date": "26 March 2025",
+    "time": "00:58",
+    "editor": "Mat5905",
+    "file_size": "73,553",
+    "change_bytes": "-2911702",
+    "description": "1.21.5",
+    "wiki_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?oldid=2911702",
+    "edit_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?action=edit&oldid=2911702"
+  },
+  {
+    "date": "6 February 2025",
+    "time": "20:35",
+    "editor": "LassiPulkkinen",
+    "file_size": "72,778",
+    "change_bytes": "-2849361",
+    "description": "→Abstract Minecart: Update to 1.13+.",
+    "wiki_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?oldid=2849361",
+    "edit_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?action=edit&oldid=2849361"
+  },
+  {
+    "date": "20 December 2024",
+    "time": "03:42",
+    "editor": "Mat5905",
+    "file_size": "71,601",
+    "change_bytes": "-2796067",
+    "description": "update to 1.21.4 and add all missing entities",
+    "wiki_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?oldid=2796067",
+    "edit_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?action=edit&oldid=2796067"
+  },
+  {
+    "date": "21 November 2024",
+    "time": "05:40",
+    "editor": "Unknown",
+    "file_size": "64,610",
+    "change_bytes": "-2769481",
+    "description": "→Entity Metadata Format: 1.20.5 and 1.21 changes.",
+    "wiki_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?oldid=2769481",
+    "edit_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?action=edit&oldid=2769481"
+  },
+  {
+    "date": "6 December 2023",
+    "time": "13:29",
+    "editor": "Unknown",
+    "file_size": "58,772",
+    "change_bytes": "-2769438",
+    "description": "→Entity Metadata: 1.20.3",
+    "wiki_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?oldid=2769438",
+    "edit_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?action=edit&oldid=2769438"
+  },
+  {
+    "date": "22 September 2023",
+    "time": "03:02",
+    "editor": "Unknown",
+    "file_size": "58,878",
+    "change_bytes": "-2769422",
+    "description": "1.20.2",
+    "wiki_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?oldid=2769422",
+    "edit_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?action=edit&oldid=2769422"
+  },
+  {
+    "date": "7 June 2023",
+    "time": "18:38",
+    "editor": "Unknown",
+    "file_size": "58,047",
+    "change_bytes": "-2769413",
+    "description": "1.20",
+    "wiki_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?oldid=2769413",
+    "edit_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?action=edit&oldid=2769413"
+  },
+  {
+    "date": "23 March 2023",
+    "time": "00:38",
+    "editor": "Unknown",
+    "file_size": "58,073",
+    "change_bytes": "-2769396",
+    "description": "1.19.4",
+    "wiki_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?oldid=2769396",
+    "edit_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?action=edit&oldid=2769396"
+  },
+  {
+    "date": "15 March 2023",
+    "time": "20:39",
+    "editor": "Unknown",
+    "file_size": "55,720",
+    "change_bytes": "-2769392",
+    "description": "add some missing 1.19.4 entity metadata",
+    "wiki_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?oldid=2769392",
+    "edit_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?action=edit&oldid=2769392"
+  },
+  {
+    "date": "15 March 2023",
+    "time": "19:44",
+    "editor": "Unknown",
+    "file_size": "53,973",
+    "change_bytes": "-2769389",
+    "description": "update metadata format table for 1.19.4",
+    "wiki_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?oldid=2769389",
+    "edit_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?action=edit&oldid=2769389"
+  },
+  {
+    "date": "15 March 2023",
+    "time": "19:24",
+    "editor": "Unknown",
+    "file_size": "53,654",
+    "change_bytes": "-2769386",
+    "description": "update entity table for 1.19.4",
+    "wiki_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?oldid=2769386",
+    "edit_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?action=edit&oldid=2769386"
+  },
+  {
+    "date": "10 March 2023",
+    "time": "00:20",
+    "editor": "Unknown",
+    "file_size": "53,336",
+    "change_bytes": "-2769382",
+    "description": "→Mobs: Updated ID to \"minecraft:command_block_minecart\". The old ID, \"commandblock_minecart\", was used only for a short time (between 1.11 and 1.13).",
+    "wiki_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?oldid=2769382",
+    "edit_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?action=edit&oldid=2769382"
+  },
+  {
+    "date": "9 December 2022",
+    "time": "19:47",
+    "editor": "Unknown",
+    "file_size": "53,299",
+    "change_bytes": "-2769372",
+    "description": "Undo revision 17877 - I thought this was the 1.19.3 protocol page, but it isn't",
+    "wiki_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?oldid=2769372",
+    "edit_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?action=edit&oldid=2769372"
+  },
+  {
+    "date": "10 August 2022",
+    "time": "09:44",
+    "editor": "Unknown",
+    "file_size": "53,427",
+    "change_bytes": "-2769359",
+    "description": "Correct entity metadata type 21, 22 (version 1.19.2)",
+    "wiki_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?oldid=2769359",
+    "edit_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?action=edit&oldid=2769359"
+  },
+  {
+    "date": "9 June 2022",
+    "time": "17:15",
+    "editor": "Unknown",
+    "file_size": "53,218",
+    "change_bytes": "-2769352",
+    "description": "1.19 entity pose mistake fixed.",
+    "wiki_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?oldid=2769352",
+    "edit_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?action=edit&oldid=2769352"
+  },
+  {
+    "date": "9 June 2022",
+    "time": "17:14",
+    "editor": "Unknown",
+    "file_size": "53,221",
+    "change_bytes": "-2769349",
+    "description": "1.19 added new entity poses.",
+    "wiki_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?oldid=2769349",
+    "edit_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?action=edit&oldid=2769349"
+  },
+  {
+    "date": "5 September 2021",
+    "time": "15:20",
+    "editor": "Unknown",
+    "file_size": "52,219",
+    "change_bytes": "-2769289",
+    "description": "→Entity Metadata Format: add Pose 7: LONG_JUMPING new in 1.17.x",
+    "wiki_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?oldid=2769289",
+    "edit_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?action=edit&oldid=2769289"
+  },
+  {
+    "date": "15 June 2021",
+    "time": "15:20",
+    "editor": "Unknown",
+    "file_size": "51,996",
+    "change_bytes": "-2769187",
+    "description": "1. Removed the \"Object\" part of the article, 2. Corrected the background color for Armor Stand (living entity) and Primed TNT (object)",
+    "wiki_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?oldid=2769187",
+    "edit_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?action=edit&oldid=2769187"
+  },
+  {
+    "date": "14 June 2021",
+    "time": "13:00",
+    "editor": "Unknown",
+    "file_size": "53,961",
+    "change_bytes": "-2769109",
+    "description": "Updated to 1.17 and made a note about the new marker being unspawnable",
+    "wiki_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?oldid=2769109",
+    "edit_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?action=edit&oldid=2769109"
+  },
+  {
+    "date": "21 January 2021",
+    "time": "23:23",
+    "editor": "Unknown",
+    "file_size": "53,207",
+    "change_bytes": "-2769077",
+    "description": "adjust version numbers; there weren't any differences between 1.16.3 and 1.16.5 in terms of entities IIRC",
+    "wiki_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?oldid=2769077",
+    "edit_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?action=edit&oldid=2769077"
+  },
+  {
+    "date": "16 October 2020",
+    "time": "12:54",
+    "editor": "Unknown",
+    "file_size": "52,903",
+    "change_bytes": "-2769039",
+    "description": "1.16.3 new entities metadata added",
+    "wiki_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?oldid=2769039",
+    "edit_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?action=edit&oldid=2769039"
+  },
+  {
+    "date": "12 August 2020",
+    "time": "18:15",
+    "editor": "Unknown",
+    "file_size": "51,123",
+    "change_bytes": "-2769023",
+    "description": "Reverted some 1.16 related changes (This is still for 1.15.2, the pre release protocol is for 1.16.2) and fixed inheritance of arrows. Entity ID's are still for 1.16.2",
+    "wiki_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?oldid=2769023",
+    "edit_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?action=edit&oldid=2769023"
+  },
+  {
+    "date": "28 June 2020",
+    "time": "22:56",
+    "editor": "Unknown",
+    "file_size": "50,751",
+    "change_bytes": "-2768943",
+    "description": "removed in 1.16",
+    "wiki_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?oldid=2768943",
+    "edit_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?action=edit&oldid=2768943"
+  },
+  {
+    "date": "5 February 2020",
+    "time": "18:16",
+    "editor": "Unknown",
+    "file_size": "49,662",
+    "change_bytes": "-2768804",
+    "description": "Merge 1.15.2 metadata",
+    "wiki_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?oldid=2768804",
+    "edit_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?action=edit&oldid=2768804"
+  },
+  {
+    "date": "9 January 2020",
+    "time": "06:11",
+    "editor": "Unknown",
+    "file_size": "49,064",
+    "change_bytes": "-2768777",
+    "description": "Remove the massive unmerged information block. This page should now be up to date for 1.14.4 (NOT 1.15.1 yet)",
+    "wiki_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?oldid=2768777",
+    "edit_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?action=edit&oldid=2768777"
+  },
+  {
+    "date": "22 August 2019",
+    "time": "20:17",
+    "editor": "Unknown",
+    "file_size": "56,493",
+    "change_bytes": "-2768709",
+    "description": "\"\"\"\"\"\"merged\"\"\"\"\"\" (i.e. just pasted the diff) 1.14.4 changes",
+    "wiki_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?oldid=2768709",
+    "edit_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?action=edit&oldid=2768709"
+  },
+  {
+    "date": "19 January 2019",
+    "time": "22:54",
+    "editor": "Unknown",
+    "file_size": "39,074",
+    "change_bytes": "-2768698",
+    "description": "→Entity Metadata Format: Remove old reference to metadata that isn't applicable in 1.13",
+    "wiki_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?oldid=2768698",
+    "edit_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?action=edit&oldid=2768698"
+  },
+  {
+    "date": "6 November 2018",
+    "time": "05:01",
+    "editor": "Unknown",
+    "file_size": "38,444",
+    "change_bytes": "-2768672",
+    "description": "→Arrow: Additional flag from 1.13",
+    "wiki_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?oldid=2768672",
+    "edit_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?action=edit&oldid=2768672"
+  },
+  {
+    "date": "3 September 2018",
+    "time": "18:54",
+    "editor": "Unknown",
+    "file_size": "38,617",
+    "change_bytes": "-2768652",
+    "description": "Update to 1.13",
+    "wiki_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?oldid=2768652",
+    "edit_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?action=edit&oldid=2768652"
+  },
+  {
+    "date": "18 April 2018",
+    "time": "20:21",
+    "editor": "Unknown",
+    "file_size": "35,061",
+    "change_bytes": "-2768635",
+    "description": "Illagers -- were incorrect for 1.12, not 100% sure when this changed",
+    "wiki_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?oldid=2768635",
+    "edit_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?action=edit&oldid=2768635"
+  },
+  {
+    "date": "8 June 2017",
+    "time": "18:50",
+    "editor": "Unknown",
+    "file_size": "37,986",
+    "change_bytes": "-2768454",
+    "description": "Move 1.12 changes over from pre release page",
+    "wiki_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?oldid=2768454",
+    "edit_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?action=edit&oldid=2768454"
+  },
+  {
+    "date": "8 February 2017",
+    "time": "16:21",
+    "editor": "Unknown",
+    "file_size": "37,176",
+    "change_bytes": "-2768412",
+    "description": "1.11.2",
+    "wiki_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?oldid=2768412",
+    "edit_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?action=edit&oldid=2768412"
+  },
+  {
+    "date": "27 November 2016",
+    "time": "02:50",
+    "editor": "Unknown",
+    "file_size": "29,332",
+    "change_bytes": "-2768313",
+    "description": "Witches are 1.95 units tall in 1.11. What's with all the incorrect heights?",
+    "wiki_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?oldid=2768313",
+    "edit_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?action=edit&oldid=2768313"
+  },
+  {
+    "date": "27 November 2016",
+    "time": "02:48",
+    "editor": "Unknown",
+    "file_size": "29,331",
+    "change_bytes": "-2768304",
+    "description": "Zombies are 1.95 units tall.",
+    "wiki_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?oldid=2768304",
+    "edit_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?action=edit&oldid=2768304"
+  },
+  {
+    "date": "27 November 2016",
+    "time": "02:47",
+    "editor": "Unknown",
+    "file_size": "29,330",
+    "change_bytes": "-2768296",
+    "description": "Pig zombie is 1.95 units tall.",
+    "wiki_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?oldid=2768296",
+    "edit_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?action=edit&oldid=2768296"
+  },
+  {
+    "date": "27 November 2016",
+    "time": "02:21",
+    "editor": "Unknown",
+    "file_size": "29,329",
+    "change_bytes": "-2768285",
+    "description": "EntityMushroomCow sets its size to (0.9F, 1.4F) like Cow.",
+    "wiki_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?oldid=2768285",
+    "edit_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?action=edit&oldid=2768285"
+  },
+  {
+    "date": "15 November 2016",
+    "time": "10:15",
+    "editor": "Unknown",
+    "file_size": "29,216",
+    "change_bytes": "-2768253",
+    "description": "Totem of Undying. I guess it's only for players. (1.11)",
+    "wiki_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?oldid=2768253",
+    "edit_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?action=edit&oldid=2768253"
+  },
+  {
+    "date": "15 November 2016",
+    "time": "10:14",
+    "editor": "Unknown",
+    "file_size": "29,174",
+    "change_bytes": "-2768246",
+    "description": "Golem : new status in 1.11",
+    "wiki_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?oldid=2768246",
+    "edit_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?action=edit&oldid=2768246"
+  },
+  {
+    "date": "15 November 2016",
+    "time": "09:57",
+    "editor": "Unknown",
+    "file_size": "29,145",
+    "change_bytes": "-2768236",
+    "description": "New 1.11 Metadatas",
+    "wiki_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?oldid=2768236",
+    "edit_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?action=edit&oldid=2768236"
+  },
+  {
+    "date": "15 November 2016",
+    "time": "09:42",
+    "editor": "Unknown",
+    "file_size": "27,074",
+    "change_bytes": "-2768218",
+    "description": "Update Mobs to 1.11",
+    "wiki_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?oldid=2768218",
+    "edit_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?action=edit&oldid=2768218"
+  },
+  {
+    "date": "15 November 2016",
+    "time": "09:39",
+    "editor": "Unknown",
+    "file_size": "25,086",
+    "change_bytes": "-2768209",
+    "description": "Update Objects to 1.11",
+    "wiki_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?oldid=2768209",
+    "edit_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?action=edit&oldid=2768209"
+  },
+  {
+    "date": "10 June 2016",
+    "time": "17:02",
+    "editor": "Unknown",
+    "file_size": "19,416",
+    "change_bytes": "-2768085",
+    "description": "Update to 1.10 (mobs)",
+    "wiki_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?oldid=2768085",
+    "edit_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?action=edit&oldid=2768085"
+  },
+  {
+    "date": "10 June 2016",
+    "time": "04:17",
+    "editor": "Unknown",
+    "file_size": "19,381",
+    "change_bytes": "-2768080",
+    "description": "Update for Minecraft 1.10",
+    "wiki_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?oldid=2768080",
+    "edit_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?action=edit&oldid=2768080"
+  },
+  {
+    "date": "5 June 2016",
+    "time": "23:19",
+    "editor": "Unknown",
+    "file_size": "18,773",
+    "change_bytes": "-2768049",
+    "description": "→Objects: Objects 11 and 12 are no longer used as of 1.9.4 (even 1.8)",
+    "wiki_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?oldid=2768049",
+    "edit_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?action=edit&oldid=2768049"
+  },
+  {
+    "date": "29 February 2016",
+    "time": "21:12",
+    "editor": "Unknown",
+    "file_size": "15,711",
+    "change_bytes": "-2767713",
+    "description": "→Entity Metadata Format: updated for 1.9",
+    "wiki_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?oldid=2767713",
+    "edit_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?action=edit&oldid=2767713"
+  },
+  {
+    "date": "11 January 2016",
+    "time": "01:04",
+    "editor": "Unknown",
+    "file_size": "16,754",
+    "change_bytes": "-2767684",
+    "description": "→Objects: fixed links and added Minecraft Wiki link to 1.6",
+    "wiki_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?oldid=2767684",
+    "edit_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?action=edit&oldid=2767684"
+  },
+  {
+    "date": "27 October 2014",
+    "time": "20:19",
+    "editor": "Unknown",
+    "file_size": "16,012",
+    "change_bytes": "-2767613",
+    "description": "→Ageable: Age is int -&gt; byte in 1.8.",
+    "wiki_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?oldid=2767613",
+    "edit_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?action=edit&oldid=2767613"
+  },
+  {
+    "date": "11 September 2014",
+    "time": "16:27",
+    "editor": "Unknown",
+    "file_size": "15,978",
+    "change_bytes": "-2767592",
+    "description": "Updated ItemFrame to 1.8",
+    "wiki_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?oldid=2767592",
+    "edit_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?action=edit&oldid=2767592"
+  },
+  {
+    "date": "2 September 2014",
+    "time": "23:12",
+    "editor": "Unknown",
+    "file_size": "14,728",
+    "change_bytes": "-2767538",
+    "description": "1.8 Rotation Data",
+    "wiki_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?oldid=2767538",
+    "edit_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?action=edit&oldid=2767538"
+  },
+  {
+    "date": "7 September 2013",
+    "time": "15:59",
+    "editor": "Unknown",
+    "file_size": "13,505",
+    "change_bytes": "-2767488",
+    "description": "→Objects: Minecarts spawning has changed in 1.6",
+    "wiki_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?oldid=2767488",
+    "edit_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?action=edit&oldid=2767488"
+  },
+  {
+    "date": "7 September 2013",
+    "time": "15:52",
+    "editor": "Unknown",
+    "file_size": "13,301",
+    "change_bytes": "-2767481",
+    "description": "→Objects: Added all sizes as of Release 1.6.2",
+    "wiki_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?oldid=2767481",
+    "edit_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?action=edit&oldid=2767481"
+  },
+  {
+    "date": "26 October 2012",
+    "time": "09:44",
+    "editor": "Unknown",
+    "file_size": "13,339",
+    "change_bytes": "-2767415",
+    "description": "→Entity Metadata Format: Updated for 1.4",
+    "wiki_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?oldid=2767415",
+    "edit_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?action=edit&oldid=2767415"
+  },
+  {
+    "date": "14 August 2012",
+    "time": "06:32",
+    "editor": "Unknown",
+    "file_size": "11,863",
+    "change_bytes": "-2767403",
+    "description": "Add index 17/18 to endermen (aggression seems to be unavailable in 1.2.5, it's back in 1.3.1)",
+    "wiki_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?oldid=2767403",
+    "edit_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?action=edit&oldid=2767403"
+  },
+  {
+    "date": "14 August 2012",
+    "time": "05:48",
+    "editor": "Unknown",
+    "file_size": "11,824",
+    "change_bytes": "-2767400",
+    "description": "→Entity Metadata Format: update the \"not currently used\" gist for 1.3.1",
+    "wiki_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?oldid=2767400",
+    "edit_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?action=edit&oldid=2767400"
+  },
+  {
+    "date": "1 August 2012",
+    "time": "01:31",
+    "editor": "Unknown",
+    "file_size": "11,824",
+    "change_bytes": "-2767397",
+    "description": "Updated to 1.3.1",
+    "wiki_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?oldid=2767397",
+    "edit_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?action=edit&oldid=2767397"
+  },
+  {
+    "date": "23 July 2012",
+    "time": "13:07",
+    "editor": "Unknown",
+    "file_size": "11,808",
+    "change_bytes": "-2767394",
+    "description": "→Entity Metadata Format: some nice formatting for the metadata types, and a note that some of them aren't being used in 1.2.5",
+    "wiki_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?oldid=2767394",
+    "edit_url": "https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata?action=edit&oldid=2767394"
+  }
+]

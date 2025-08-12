@@ -1,0 +1,216 @@
+Byte
+VarInt
+Optional Text Component
+Boolean
+Boolean
+Boolean
+Pose
+VarInt
+Direction
+Painting Variant
+Direction
+Slot
+VarInt
+Slot
+Float
+Float
+Boolean
+Position
+Float
+Boolean
+Particle
+Slot
+VarInt
+Block State
+Slot
+Slot
+Slot
+Byte
+Byte
+Boolean
+Slot
+Optional VarInt
+Boolean
+VarInt
+VarInt
+VarInt
+Vector3
+Vector3
+Quaternion
+Quaternion
+Byte
+VarInt
+Float
+Float
+Float
+Float
+Float
+VarInt
+Boolean
+VarInt
+Boolean
+Byte
+Float
+Particles
+Boolean
+VarInt
+VarInt
+Optional Position
+VarInt
+VarInt
+VarInt
+Float
+Optional Position
+Boolean
+Slot
+VarInt
+Byte
+Boolean
+Text Component
+VarInt
+VarInt
+Byte
+Byte
+Slot
+Byte
+Block State
+Byte
+Byte
+Rotations
+Rotations
+Rotations
+Rotations
+Rotations
+Rotations
+Float
+VarInt
+Byte
+Byte
+NBT
+NBT
+Boolean
+Boolean
+VarInt
+Optional Block State
+VarInt
+Boolean
+VarInt
+Byte
+VarInt
+VarInt
+String
+Text Component
+Boolean
+Byte
+Boolean
+Boolean
+Boolean
+VarInt
+Boolean
+Boolean
+Boolean
+Direction
+Byte
+Byte
+Byte
+Boolean
+Optional Block State
+Boolean
+Boolean
+Boolean
+Boolean
+VarInt
+Boolean
+VarInt
+Boolean
+Boolean
+Byte
+Boolean
+VarInt
+Boolean
+Boolean
+Boolean
+Optional Position
+Boolean
+VarInt
+VarInt
+VarInt
+VarInt
+Boolean
+Byte
+VarInt
+Byte
+Boolean
+VarInt
+VarInt
+VarInt
+Boolean
+VarInt
+Boolean
+Villager Data
+Boolean
+Boolean
+Byte
+Boolean
+Boolean
+Boolean
+Cow Variant
+Boolean
+Boolean
+Boolean
+VarInt
+Sniffer State
+VarInt
+Byte
+Byte
+VarInt
+Boolean
+Boolean
+Boolean
+VarInt
+Boolean
+Boolean
+VarInt
+Boolean
+Boolean
+Chicken Variant
+VarInt
+Pig Variant
+Armadillo State
+VarInt
+Byte
+Boolean
+Byte
+Optional Living Entity Reference
+VarInt
+Byte
+Optional Living Entity Reference
+Optional Living Entity Reference
+Frog Variant
+Optional VarInt
+VarInt
+VarInt
+VarInt
+Byte
+Byte
+Byte
+Boolean
+Boolean
+Villager Data
+VarInt
+Boolean
+VarLong
+Boolean
+VarInt
+Cat Variant
+Boolean
+Boolean
+VarInt
+VarInt
+Boolean
+VarInt
+VarInt
+Wolf Variant
+Wolf Sound Variant
+VarInt
+VarInt
